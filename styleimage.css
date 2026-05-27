@@ -1,0 +1,57 @@
+/* 1. This is the container that holds all your figures */
+.gallery {
+    display: flex;       /* This turns on the 'side-by-side' magic */
+    flex-wrap: wrap;     /* If the screen is too small, they'll drop to the next row */
+    gap: 15px;           /* Puts a nice space between the images */
+}
+
+/* 2. Style each figure (image + text unit) */
+figure {
+    width: 200px;        /* Keeps them all the same size */
+    margin: 0;           /* Removes default browser spacing */
+}
+
+/* 3. Make sure the image stays inside the 200px figure */
+img {
+    width: 100%;         
+    display: block;      /* Removes the weird gap at the bottom of images */
+    height: auto;
+}
+
+/* 4. Your caption style */
+figcaption {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/* ------------------------ */
+
+
+
+h1 {
+  font-family: 'Arial Black', Arial, sans-serif;
+ font-weight: bold;
+
+   display: block;
+  font-size: 34px;
+
+  font-weight: bold;
+
+}
+
+h2 {
+  font-family: 'Arial Black', Arial, sans-serif;
+ font-weight: bold;
+
+   display: block;
+  font-size: 24px;
+
+  font-weight: bold;
+ background-color: rgb(218, 180, 104);
+  color: white;
+  text-align: left; 
+  padding: 5px;
+  width: 250px;
+}
