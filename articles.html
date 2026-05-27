@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blopswebsite</title>
+  <!-- The style.css file allows you to change the look of your web pages.
+       If you include the next line in all your web pages, they will all share the same look.
+       This makes it easier to make new pages for your site. -->
+	<meta name="description" content="My website">
+  <meta name="keywords" content="HTML, CSS, colours, writing, personal, ">
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://blopswebsite.neocities.org/">
+	
+	  <link rel="icon" type="image/x-icon" href="https://artwork.neocities.org/pixels/119.gif">
+    <link rel="stylesheet" href="public/style.css">
+
+  </head>
+<!-- <script type="module">
+  // This imports the library directly from the web so Neocities can see it
+  import { prepare, layout } from 'https://esm.sh/@chenglou/pretext';
+
+  // 1. Wait for the page to load so we can see your notes
+  window.addEventListener('DOMContentLoaded', () => {
+    
+    // 2. Define the look. 
+    // Your CSS says: font-family: 'Times New Roman'; font-size: 12px;
+    const fontSettings = "12px 'Times New Roman'";
+    const lineSpacing = 16; // The height of each line in pixels
+
+    // 3. Find all your note sections
+    const noteElements = document.querySelectorAll('.p-note');
+
+    noteElements.forEach((el, index) => {
+      const textContent = el.textContent.trim();
+      const elementWidth = el.offsetWidth;
+
+      if (elementWidth > 0) {
+        // 4. THE PRETEXT MAGIC
+        // Step A: Prepare the text (measure the characters)
+        const prepared = prepare(textContent, fontSettings);
+        
+        // Step B: Calculate the layout based on the box width
+        const { height, lineCount } = layout(prepared, elementWidth, lineSpacing);
+
+        // 5. Output the result to your browser console (F12 to see it)
+        console.log(`Note #${index + 1} is ${height}px tall and has ${lineCount} lines.`);
+        
+        // Example of using the data: 
+        // We can add a little label to the note showing the reading height
+        const badge = document.createElement('span');
+        badge.style = "font-size: 10px; color: orange; display: block; margin-top: 5px;";
+        badge.innerHTML = `(Layout Height: ${height}px | Lines: ${lineCount})`;
+        el.appendChild(badge);
+      }
+    });
+  });
+</script> -->
+
+
+
+   <style>
+		 
+	
+		 
+		 * {
+  margin: 0;
+  box-sizing: border-box;
+    font-family: 'Times New Roman';
+
+}
+		
+		
+ 
+					 
+					 --------------
+					 /* New styles for the Articles and Notes sections */
+
+
+h2 {
+    color: #ffffff; /* This is a nice contrast with your dark background */
+    border-bottom: 2px solid #5a5a5a;
+    padding-bottom: 5px;
+}
+
+/* Style for the individual article cards */
+.article-card {
+    background-color: var(--darker);
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.article-card:hover {
+    background-color: #3d3d3d; /* Lighter background on hover */
+}
+
+.article-card h3 a {
+    text-decoration: none;
+    color: #70B9E8; /* Your link color */
+}
+
+.article-card p {
+    color: #ccc;
+    font-size: 0.95em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.article-meta {
+    font-size: 0.8em;
+    color: #888;
+}
+/* Style for the notes section entries */
+.note-entry {
+    background-color: #2b2b2b;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease;
+		 }
+.note-entry:hover {
+    transform: translateX(5px); /* Simple hover effect */
+}
+.note-entry h3 a {
+    text-decoration: none;
+    color: #70B9E8;
+}
+.note-entry p {
+    color: #ccc;
+    font-size: 0.95em;
+    margin-top: 5px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #5a5a5a;
+    margin: 20px 0;
+}
+	
+		
+		 .p-note {
+  background-color: var(--dark-pnote); /* A darker background for contrast */
+  padding: 5px;
+  font-size: 12px ;
+
+}
+			
+		 
+		 details {
+  border: 1px solid ; /* Adds a border */
+  border-radius: 5px; /* Rounds the corners */
+  margin-bottom: 15px; /* Adds space below the section */
+
+}
+
+summary {
+  font-weight: bold; /* Makes the title bold */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+		 
+		  blockquote {
+      font-family: 'Georgia', serif; /* Elegant font for quotes */
+      font-size: 0.8rem;
+      font-style: italic;
+      border-left: 4px solid orange; /* Blue left border */
+      padding-left: 20px ;
+      position: relative;
+    }
+		 
+  </style>
+<body>
+	
+  
+ <div class="container">
+
+<div class="firkant" >
+    Curr reading/thinking: Franco bifo beradi and trying to get trough my browser filled w notes n stuff and Eva illouz.
+
+    <a href="https://www.scimagojr.com/journalsearch.php?q=300147001&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=300147001" alt="SCImago Journal &amp; Country Rank"  /></a>
+</div> 
+
+    <div class="sidefirkant">
+<h2 style="color: rgb(199, 34, 34);"> ! Important !</h2>
+<p style="font-size: 8px; "> The Sociologist Franco "bifo" Berdadi (The guy that initially launched the concept of the slow cancellation of the future which Mark Fisher later got inspiered from) 
+    Has shockingly stated that there is no hope left.. 
+<br>
+I cant believe this, and i struggle to believe this... It cant be happening... Why in the heck would someone like him with so much exsperience and wisdom state something like this? How did everything change from a man fighting for hope opendly state that there are no hope ? 
+<a href="https://autonomies.org/2025/08/franco-bifo-berardi-humanity-will-not-survive-this-century/"> link</a>
+</p>
+
+
+
+
+    </div>
+
+<div class="bigimage"> 
+<img src="public/Pictures/articlesbackground2.png" class="fit-img" style="width: 100%; height: 100%; object-fit: cover;  background-size: cover;    
+  background-position: center; 
+  background-repeat: no-repeat;">
+</div>
+
+  <div class="links"> 
+  <strong> LINKS </strong> 
+<button type="button" class="collapsible">Me</button>
+            <div class="content" style="display:none;">
+                <a href="/aboutme.html">About me</a><br>
+                <a href="/library.html">Library </a> <br>
+                <a href="/guitar.html">Guitar</a> <br>
+                <a href="/music.html">Music</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Knowledges</button>
+            <div class="content" style="display:none;"> 
+                <a href="/articles.html">Articles</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Æstetikk</button>
+            <div class="content" style="display:none;">
+                <a href="/labbe.html">Rabbit shrine</a> <br>
+                <a href="/links.html">Links</a>
+            </div>
+
+	<hr>
+		
+   
+		<h2> Links to notes I have written </h2> <ul>
+		<li>	<a href="#book-1"> Introduction to the Sociology of Music</a> </li>
+		<li> <a href="#article-1">Stalinism and the Art of Boredom</a> </li>
+		<li> <a href="#article-2">Dedication to Hunger</a> </li>
+				<li> <a href="#book-2">The Ethics of Authenticity</a> </li>
+	<li> <a href="#article-3">The contemporary malaise of interpassivity: On feeling, subjectivation, and automation</a> </li>
+		
+		
+		</ul>
+
+		
+		
+		
+    
+</div>
+
+<div class="big">  <pre style="text-align: center;"> 
+	              <h2>   <img src="https://art.pixilart.com/sr5za24ff94690aws3.png" style="width:5%; transform: scaleX(-1);" ></a> My notes on interesting stuff: <img src="https://art.pixilart.com/sr5za24ff94690aws3.png" style="width:5%;"></a>
+ </h2>  	<p class="p-note" style="white-space: normal;"> 
+    Here is the place where I share my own collection of articles that I want to either read or have read. There is also some of my own notes (edited multiple times of course so that you can understand too) from interesting articles/books. There is also my own lists of interesting terms,websites and people ive come across.  I enjoy reading sociology and critical theroy so thats what youre gonna see a bunch off.  
+
+    This is the kind of stuff I would like you to check out cuz awareness and genuine curiosity yay.  
+    
+</p>	
+ </pre>
+	 
+	    <div id="book-1" class="full-article">
+				<h2> Introduction to the Sociology of Music -Theodore Adorno </h2>
+<p class="p-note"> The main theme is about the Culture industry and how it deafens down the individual capability to critically think which (seems to me) Adorno meant was a thing to take seriously. Adorno was a cultural theorist which critisized capitalisms ability to disintegrate meaning in the arts, and turn it into commodified products -not to be enjoyed, but to be consumed. Music and art used to be very important and critical (unlike today) where whole societal shifts could be motivated by it (<a href="https://www.goodreads.com/book/show/6905969-33-revolutions-per-minute">33 Revolutions Per Minute, Goodreads</a>). (This book was written in 1976!)
+				</p>				
+	<details> <summary> Important terms to get over with: </summary>
+  <p>
+    
+<ul>
+    <li><strong>Commodification</strong>: Process of turning an item into something to be sold on a market</li>
+    <li><strong>Culture industry</strong>:<strong>&nbsp;</strong>refers to the mass production and standardization of cultural products like music, film, and television, which they argued serves to manipulate and control audiences within capitalist societies</li>
+    <li><strong>Standardization</strong>: &ldquo;maintains that, in capitalist society, popular culture (and, by extension, popular music) is standardized, using the same formula to appeal to the masses&nbsp;</li>
+    <li><strong>Passive listening</strong>: background-listening, headache-inducing, not following whats going on in the sounds</li>
+    <li><strong>Pseudoindividualization</strong>: Illusion of choice pushed by standardized culture</li>
+    <li><strong>Avant-Garde</strong>: New and experimental ideas within culture (art, music, it) which mixes past trends</li>
+    <li><strong>Atomization</strong>: Individuals are isolated from eachother and separated from meaningful societal structures (M-The loneliness epidemic for example)</li>
+	<li> <strong> Reification </strong>: treating something non-material as a material object. (I.e Music as a product to be sold on the market)</li>
+	<li> <strong> Conformism/conventionality</strong> Reference to the norms and the act of following those norms</li>
+
+  </ul> </p>
+
+ </details>		
+<details>
+    <summary>&nbsp;Popular music:</summary>
+    <p>
+    <ul>
+        <ul>
+            <li>Lack of reflection, based off from general tastes</li>
+            <li>Commercialization</li>
+            <li>Rigid structured, repetitive</li>
+            <li>Aversion to anything different (=&rdquo;Country music is shit&rdquo; polarization &quot;The way you listen to music is wrong&quot;-whining)</li>
+            <li>Must conform (=Eurovision music)</li>
+            <li>&ldquo;High art&rdquo; (classical music etc) lost resonance with public, but popular music filled up the gap because of its simplicity being more connected to the audiences &ldquo;emotional truth&rdquo; (= Tiktok, people listen only for a high, skipping parts). High art demands effort, but people dont have time for that effort (connected to cultural neoliberalism, the feeling that we need to work and do something all the time)&hellip;</li>
+            <li>Popular music still gets hits because of <strong>emotional resonance</strong></li>
+            <li><strong>passive listening</strong> (shallowness bypassing intellectual scrutiny to emotionally manipulate)</li>
+            <li><strong>Passivity + Pacified =</strong> People feel satiated and are numbed by the music so that they wont revolt.</li>
+            <li><strong>DULL EUPHORIA</strong> (intense feelings of happiness is dulled)</li>
+            <li>The point with the music is that it makes you freeze up and feel the fun</li>
+            <li>Music pacifies listeners and reinforces dominant social order</li>
+            <li>Music is flattened ( to background noise for example)</li>
+            <li>adorno not liking how music has formulas (mirroring capitalist mass production)</li>
+            <li>&lt;mark&gt;<strong>Repetition = Submission</strong>: Hit songs train listeners to desire familiarity, mirroring how capitalism demands conformity&lt;/mark&gt;</li>
+            <li><strong>Quality transformation</strong>: Music becomes part of everyday life rather than exceptional experience</li>
+            <li>His insight that music, the art of music, strikes [public opinion] as a kind of natural datum rather than a historical, constructed phenomenon.</li>
+            <li>train &quot;active imagination&quot; to mass audience to become a &quot;good listener&quot; /</li>
+            <li>Corporate manufacturing and manufactured stardom (other ppl choose what you can hear, they push the music in your face)</li>
+            <li>The preference of the listeners are manipulated by the system</li>
+            <li>Standardization</li>
+            <li>Ad nauseam</li>
+            <li>Blurred between art and mass production</li>
+            <li>Atomized individuals (socially isolated/disconnected/meaningful community ties lack!)</li>
+            <li>Hits focus a single point of channeling emotions to the listener or to&nbsp;&lt;mark&gt;&nbsp;fulfill the longing for emotions&lt;/mark&gt;. (tiktok!)</li>
+        </ul>
+        <li>
+            <p>&rarr;made to apply for &quot;workers&quot;</p>
+            <p>&rarr;social control, exploitation of vulnerabilities for profit</p>
+            <p>&rarr;Bowing to a <strong>ritual of socialization</strong></p>
+            <ul>
+                <li><strong>Pseudoindividualization</strong> (jazz fakes improvisation, Adorno existed before the high tides of jazz).</li>
+                <li>The distribution of &ldquo;weak stuff&rdquo; (music and more) that weakens the ideas and cultural impulses that spread through society (=less bookstores today more arcades, less academic bookstores but more grocery stores and junk food)</li>
+            </ul>
+        </li>
+    </ul>
+</details>
+<details>
+    <summary>High art/good music, and subversive music:</summary>
+    <p>
+    <ul>
+        <li>Simultaneously defending high culture against commodification while critiquing the institutions meant to preserve it, revealing the contradictions inherent in art&apos;s position within capitalist society.</li>
+        <li><span style="color: rgb(84, 172, 210);">Subversive music should be structurally different and &quot;weird&quot;</span> (like Schoenberg&apos;s atonality) because it forces the listener into discomfort</li>
+        <li>When anything SUBVERSIVE enters the mainstream it loses its political meaning &quot;Disruptive power&quot;. For example Punk and psychedelic rock that lost its innovative charm when it became popular/mainstream (Search about the death of <strong>Kurt Cobain</strong> for more knowledge around this). Imagine a song about why we should help dying children, but the song has a catchy melody, nice chorus and a buildup. Many won&apos;t notice the meaning and its political purpose. I think Adorno meant that any subversive music shouldn&apos;t play within the rules of the government it ought to be disobedient against.</li>
+        <li>Beethoven&apos;s use of <strong>dissonance</strong> or <strong>Schoenberg&apos;s atonality</strong> are not just aesthetic choices but <em>social acts</em> that reveal the alienation and contradictions of modernity (Also see Weber&apos;s serialism)</li>
+        <li>Just the subjective intentions of the composer ain&apos;t good enough because it is still through the lens of the culture industry (For instance, a protest song with a radical message but a conventional, catchy melody might fail to provoke critical thought because its <em>form</em> aligns with the very structures it claims to oppose)</li>
+        <li>
+            <p>&rarr;Theres some holes in this argument though. The song Strange Fruit about racism and the horrors of lynching in America. It seems like the song contributed by creating social changes.The lyric is what created the social change even though the song is listenable.</p>
+            <ul>
+                <li>Subversive music pushes a truth that <strong>cracks open ideology</strong> (Popular music makes ideology easy to digest, but critical music is tough to digest)</li>
+                <li>music&apos;s autonomy and social content are inseparable: (=Soviet permisfans, fascistic machinery-instruments)</li>
+                <li>&quot;Good music&quot; is supposed to challenge past structures (=Beethoven&apos;s Ninth symphony)</li>
+            </ul>
+        </li>
+        <li>
+            <p>&rarr;But vulnerable to ideological structures (Nirvana, ode to joy is an national anthem)</p>
+            <ul>
+                <li><span style="color: rgb(84, 172, 210);">Music should critique society through its form not by its messaging </span> </li>
+                <li>= Adorno might see music as a form of &quot;meditation&quot; or &quot;language&quot; which gives room to critique society (punk, goth, old rock&hellip;)<ul>
+                        <li>Protest songs are lost to commercialization</li>
+                    </ul>
+							</p>
+</details>
+<details>
+    <summary>&nbsp;You should think about:</summary>
+    <p>
+    <ul>
+        <li>Music taste is a result from &quot;mechanical mass production&quot;</li>
+        <li>Musics Ideological control (=Adorno&apos;s time things were not as freely-moving as now, but I wonder what exactly is the ideology is today?)</li>
+        <li>Individualism as pre-packaged conformity (=The free marketplace and the plethora of options makes us believe that we have the freedom to choose, but we dont. The freedom is fake)</li>
+        <li>People feel like <strong>they need to flee boredom</strong></li>
+        <li>Our awareness is being sabotaged by the music we listen to. What else can sabotage our awareness? What does it even mean to have ones awareness sabotaged?</li>
+        <li>We are atomized and isolated from everyone else. There is a culture of loneliness that praise this (Do you see this irl?)</li>
+    </ul>
+</details>
+<details>
+    <summary>Our consciousness and awareness is being degraded</summary>
+    <ul>
+        <li>Abasement&rarr;<strong>degradation of consciousness</strong> (internalized ideal)</li>
+        <li>Music as distraction: <span style="color: rgb(84, 172, 210);">prevents people from reflecting on themselves and their world!</span></li>
+        <li><strong>Sabotage of awareness</strong></li>
+        <li>People really no longer feel alive and they blame &quot;time&quot; for that. Music makes them dream away their present reality is assuring.</li>
+        <li>Entertainment introduces a narrow ideal which <strong>narrows down the individual&apos;s sense of possibility</strong> (=You feel like that the only thing to life is work, fuck, and do substances which is like 99% of song nowadays&hellip;)</li>
+        <li>One feels as if they&apos;re participating in the music (You imagine yourself to be in the center of all attention) Takes you away. (=Ego tripping/centering, this is close to Charles Taylor concern in his book <strong>the ethics of authenticity</strong> where the individual is conditioned to only care about themself without engaging with anything &quot;higher&quot; than them. Music facilitates this)</li>
+        <li><strong>Music today trains the unconscious mind for unconditioned reflexes</strong> (follows society&apos;s ideological trend)</li>
+    </ul>
+</details>
+<details>
+    <summary>&nbsp;How to be more conscious/aware?&nbsp;</summary>
+    <ul>
+        <li>To be able to listen fully means to have a developed consciousness</li>
+        <li><strong>Adorno argues that true intellectual/spiritual richness comes with deeply engaging with the EXTERNAL REALITY!</strong></li>
+        <li>= Adorno pro meant that <strong>art needs a purpose</strong>- art for art itself gives a false sense of truth/freedom. (think about the music created by large companies- what is the arts purpose? To satiate.)</li>
+    </ul>
+</details>
+<details>
+    <summary>&nbsp;Similar to Mark Fisher and Charles Taylor</summary>
+    <ul>
+        <ul>
+            <li>Noble superficiality ( Society fakes freshness/newness and most likely steals the ideas from the past and reuse them) Its basically <strong>Standardisation</strong> in disguise ?</li>
+        </ul>
+        <li>
+            <p>&rarr; This is a reason for why Adorno disliked jazz because to him it seemed like jazz tried to fake being new and fresh with its inprov, but instead played within standarlized licks that were reused and etc etc.</p>
+            <ul>
+                <li>NOSTALGIA SONGS (fisher)</li>
+                <li>New music tries (This was written in Adornos time) to show quick innovativeness, but is same-y and slow (at least according to Adorno)</li>
+                <li>The use of the wrongly defined word &quot;authenticity&quot; trough music centers the individual and reinforces egocentric thought instead of encouraging engagement with the world (Charles Taylor, The ethics of authenticity).</li>
+            </ul>
+        </li>
+    </ul>
+   
+</details>
+		
+		<details>
+    <summary>&nbsp;Quotes and some commentary</summary>
+    <ul>
+        <ul>
+            <li style="text-align: left;">&quot; The hits not only appeal to a &quot;lonely crowd&quot; of the atomized; they reckon with the immature, with those who cannot express their emotions and experiences, who either never had the power of expression or were crippled by cultural taboos. To people harnessed between their jobs and the reproduction of their working energies, the hits are purveyors of an ersatz for feelings which their contemporaneously revised ego ideal tells them they should have&quot; (=Music making pockets of &quot;fake&quot; feelings where atomized individuals in need of expression and self-undertanding listen to in order to &quot;self medicate&quot;/ emotionally immature: I am bullied at school so i listen to music that makes me feel like i am the best person ever. Now the songs i listen to is talking about violence, i believe i should be experiencing the same feelings that are sung. This reinforces and satisfies immaturity. <span style="color: rgb(84, 172, 210);">We lack the time and emotional capacity for genuine feelings</span>. Listening to music makes me feel deep and smart.)&nbsp;</li>
+            <li style="text-align: left;">&quot; The function of music is ideological not only because it hoodwinks people with an irrationality that allegedly has no power over the discipline of their existence. It is ideological also because it makes that irrationality resemble the models of rationalized labor. What people hope to escape from will not let them go. Their free time is spent dozing, merely reproducing their working energies ; it is a time overshadowed by that reproduction. The consumed music indicates that there is no exit from the total immanence of society.&quot; (= Today music about hustling and working ((neffex ex)) musics &quot;irratiolality&quot; decieves. Your leisure activity is structured the same way as your labour. <span style="color: rgb(84, 172, 210);"><strong>Illusion of freedom</strong></span>.)&nbsp;</li>
+            <li style="text-align: left;">&quot; <span style="color: rgb(84, 172, 210);">Ideology is replaced by instructions for behaviour</span>. (...). It (music) <span style="color: rgb(84, 172, 210);">trains the unconscious for conditioned reflexes</span>. We hear a great deal of talk about the skepticism of the young and about their (=scepticism?) of ideologies. These categories surely miss the mark insofar as they &quot;confuse the hardboiled disillusionment of countless individuals with an undiminished awareness of the thing itself. &quot; (=The sadness of society dosent come from a deep undertsanding of whats going on and why. The understanding is too shallow. People can feel critical trowards society, but still dont undertand/know what it affecs.</li>
+            <li style="text-align: left;">&quot; The very man whom all new music is not gray like cats in the night will eventually, on grounds of identification with the matter, reject what is inadequate to its idea and therefore to his own.&quot; (= DIRECT REFERENCE TO FRIEDRICH SCHELLING! Schelling critizised Hege and other idealists that their philosophy, by trying to expslain everything trough a single, abstract principle, failed to differentiate between different things. Hence the quote &quot;-to land in the night in which all cows are black.&quot;)</li>
+            <li style="text-align: left;">&quot; the listener who remembers a hit song will turn into the song&apos;s ideal subject, into the person for whom the song ideally speaks&quot;</li>
+            <li style="text-align: left;">&quot; The subtly habit-forming effect contrasts oddly with the crudeness of the stimuli themselves. In that sense pop music is ideology,&quot;</li>
+            <li style="text-align: left;">&quot; by the type of hits which in America are classified as &quot;nostalgia songs.&quot; They fake a longing for past, irrevocably lost experiences, dedicated to all those consumers who fancy that in memories of a fictitious past they will gain the life denied them.&quot;</li>
+            <li style="text-align: left;">&quot; Today, however, the relation to reality is no more seriously severed by the function of hearing than by the <span style="color: rgb(84, 172, 210);">artificial daydreams</span> of the optical culture industry.&quot;</li>
+        </ul>
+    <p> =bureaucratic elements to music and hyperrational capitalism behind a human enjoyment - Going back to Marx Weber's theory about rationalization process where we are in a demystified, mechanical and effectivized world, but long for the fantasy and the mysterious- capitalism uses this to its advantage </p>
+			<p> =I think the problem here i not that we are subjected to a lot of stuff we didnt ask for, but that for some people (a lot, i suppose) tend to stay in an stagnated position where they only consume/listen around their pre-chosen circle without going outside of it and growing as a person. We start with what is chosen for us, and we end with what is still chosen for us. We are subjected to a lot of stuff we didnt ask for and we dont know how to break free. 
+			</p> <p>
+To try to say it a bit more my-way; I think that there is less and less adventuring towards discovering and uncovering new mystical truths outside of any kind of culture. Due to the digitized world and pressure-driven neoliberalist ideology we feel a huge pressure to do things so we always act like hurried nuggets, forgetting the screeching alarm in the background and the heavy machinery which deafens our capability to think. Our minds are extremely formable and it is formed by all its surroundings. Therefore you ought to be very careful and aware of what you chose to listen to and how you want to be affected by everything around you... 
+			</p> <p>
+It seems like the spirit of adventure and discovery is getting chocked to death. Realive it by expanding and strengthen your self towards the world like the roots of a tree. The more roots you have the stronger you are.</p>
+
+<p> It was pretty tough reading this. There is probably a lot of stuff i unknowingly skipped trough because he style he write in is so cryptic-. I also read a couple articles about this. </p>
+
+</details>
+		
+				
+				
+	</div>
+	
+	<hr>
+    <div id="article-1" class="full-article">
+        <h2>Stalinism and the Art of Boredom</h2>
+            <p class="p-note"> Socialist realist music made to be boring (anonymity, tedium etc was seen as a virtue). I was not interested in reading about teh western veiws on the culture of Socialist realism and how it worked. On the other hand, i was facinated by the effects of simple boredom/tedium that i find worthwhile for you to wonder about too. 
+
+</p>
+			
+				<details> <summary> Points i liked</summary>
+  <p>
+- The erosion of individual style and mergning with the collective<br>
+- Ritiuals are boring for the participants/observers whose minds arent fully absorbed by them. They are boring on purpose. <br>
+- When its so repetitive, so predictable, so boring- it forces us to start daydreaming.<br>
+- The dictators Hitler and Stalin wanted mindless obedience from the masses. They believed they could instill this with excessive repetition of simplicity in order to bypass reason<br>
+- Repetition deafens the capacity to think. (Similar to Adorno)<br>
+- Reaction to boredom: apathy and aggression<br>
+- It sits and stirs inside your mind without you fully knowing it.  It sits inside your mind and sometimes surfaces (children at school found themselves drawing pictures of Stalin on their desks)<br>
+- Some case studies of composers. <br></p>
+
+ </details>
+				
+				<details> <summary> Quotes</summary>
+  <p>
+ <li style="text-align: left;">&quot; Rituals are boring for those participants or observers whose
+	 minds are not fully absorbed by them.&quot; </li>
+
+<li style="text-align: left;">&quot; But how can the
+ritual be effective in instilling in us certain values if its repetitiveness and predictability
+prevent us from being fully engaged– in a way,   <span style="color: rgb(84, 172, 210);"> forces us to daydream? </span> As Milan Kundera
+remarked, in East-European communist countries ‘the millions of pictures of Lenin
+	displayed everywhere you go certainly do not stimulate love for Lenin’.&quot; </li> 
+		
+		<li style="text-align: left;">&quot; 
+The capacity of the masses for perception is extremely limited and weak. Bearing
+this in mind, any effective propaganda must be reduced to a minimum of essential
+concepts, which themselves must be expressed through a few stereotyped formulae. . . . Only constant repetition can finally bring success in the matter of instilling
+ideas into the memory of the crowd.
+Hitler, who himself admitted learning the art of propaganda from Stalin’s example, con
+temptuously denied ‘the masses’ the capacity for rational engagement with ideas. He be
+lieved, it would seem, that  <span style="color: rgb(84, 172, 210);"> excessive repetition of simple phrases bypasses reason in favour of
+			some subconscious level. &quot; </span>" (=Very similar to what Theodor Adorno said too) </li>
+<li style="text-align: left;">&quot; 
+The private thoughts of some of the delegates are still available (…): “ Semenko: Everything is running so smoothly that I’m consumed by a maniacal
+desire to take a piece of shit or rotten fish and hurl it at the Presidium of the
+Congress. Perhaps this would inject a little life into the proceedings. . . . [I]t is a
+fraudulent ceremony. . . . A good half of the audience, especially the delegates
+from the national republics, would really like to cry out passionately about gross
+injustice, to protest, to demand, to speak as human beings, not as lackeys. But
+instead, they are forced to listen dutifully to our leaders reading their papers,
+which are nothing but lies– they are assured that everything is just fine. And we
+sit and clap like clockwork soldiers . . . while the true artists, those who fight for
+their national culture, are rotting away somewhere in a Karelian swamp or a
+	GPUprison.” </li>
+
+ <li style="text-align: left;">&quot;  <span style="color: rgb(84, 172, 210);">Repetition deadens our capacity to think, but leaves its sediment in
+the mind. It occupies a certain space there and sometimes surfaces unexpectedly and without
+		being willed.</span> Ilya Kabakov recalls, for example, how his contemporaries at school often
+found themselves absent-mindedly drawing pictures of Stalin on their desks. "
+					</li>
+</p>
+
+ </details>
+				
+				<details> <summary> =Thinking aloud</summary>
+  <p>
+- The scrolling on social media when youre bored is unhealthy for your mind. It sticks on to your concious and eats away your thoughts. id like to find a clearer way to understand this, though. <br>
+		- I saw a video once where the guy in it said that boredom was dangerous. BOREDOM IN ITSELF ISNT DANGEROUS ITS HUMAN. There is a wide difference between doing somethig that makes you bored versus being bored and trying to do something versus being bored and chosing to sit with it. <br>
+		- I wonder if people have the personal problem of trying to do "productive stuff" in order to avoid their boredom and to satisfy their need of being "someone" trough the eyes of society. I think I still kinda do this where I feel like i have to be "productive" and i rummage trough just "doing stuff", and ending up spending a lot of time on something "small". This is very similar to the conclusion of the book "Four thousand weeks" by Oliver Burkman: We feel suffocated by our freedom to choose so much we feel guilty about having to redject something in order to do anything else. Also Chesterton mentions that freedom means having limitations (or smth) in his book Orthodoxy). <br>
+		- BRO IF YOU FEEL LIKE YOU ARE SO FUCKING BORED BY THE TEDIUM OF CONTEMPORARY LIFE YOU HAVE TO TEAR YOURSELF AWAY FROM IT AND CREATE YOUR OWN SPACE WITH THE DEPTHS OF CULTIVATING DEEP LOVE AND ADMIRATION WITH THE WORLD. DO THIS ALONE AND FEEL TROUGH THIS PROCESS SLOWLY BECAUSE IN ORDER TO FEEL ANYTHING REWARDING YOU HAVE TO PUT YOUR FEELING AND ATTENTION AND TIME INTO IT. READ A DIFFICULT LITERATURE BOOK, WATCH THREE LONG MOVIES THAT ARE NON-MAINSTREAM, STARE AT AND ADMIRE AN ARCHITECTURAL STRUCTURE. SAVOUR THE PRESENT MOMENT.
+					
+					
+					</p>
+
+ </details>
+			
+			
+    </div>
+  <div id="article-2" class="full-article">
+        <h2>Dedication to Hunger
+: The Anorexic Aesthetic in Modern Culture</h2>
+            <p class="p-note">  Dedication to hunger by Leslie Haywood is A piece about how anorexia is a result of societal structures and how people are encourage to think like an anorexic. I highly recomend anyone to read some of this because it gives a deeper perspective and shows that you need to always understand someone before you can judge them. Disorders arent random, they are the result of something real and underlying, like the redjection of the feminine self. Also it poses a real shift in your perspective about female subjectivity and your own subjectivity around feminity. Made me think over my "I hate pink" period of life. 
+							There is also a lot of references to poetry and literature (The authour is an english professor).
+</p>
+ 
+		<details>
+    <summary>The interesting stuff</summary>
+    <ul>
+            <li>The cultural assumption that devaluates the body, &ldquo;weakness&rdquo;, tenderness, softness, emotion (values connected to femininity). And Early in western culture to subordinate/sacrifice the feminine flesh. The anorexic feels ashamed of her body-her self, that dosent fit in to society. She wants acceptance, to fit in.</li>
+            <li>Anorexics are cartesian: male-mind female-body. It is masculinity that is looked at as the good and only. Anorexics reject their feminity.</li>
+            <li>So-called &ldquo;male philosophy&rdquo;: &nbsp;Plato, Descartes, Hegel: Devalues feminity ( platos devaluation of women, Hegels master and slave dialectic and descartes dualism)</li>
+            <li>&ldquo;<strong>Philosophical Anorexics</strong>&rdquo;: &nbsp;Poet Gl&uuml;ck and the Irish poet Eavan Boland: their women are obsessed with their bodies and food</li>
+            <li>Females start cutting or denying parts of femininity in order to &ldquo;give space&rdquo; for the other in relationships. <span style="color: rgb(84, 172, 210);">The female seen as too much so she cuts herself away and makes herself smaller</span>.</li>
+            <li>The achievement of a &ldquo;self&rdquo; is a rejection of self: (=So far i think of the culture of discipline, &ldquo;less is more&rdquo;, female is seen as the parent and as the person that sacrifices herself for something. Therefore the new culture of women being dependent &ldquo;themselves&rdquo; etc..)</li>
+            <li>Culture romanticizing/showing some narrow ideal at the cost of the female body</li>
+            <li>The anorexic blames Eve for the biblical fall of Adam and Eve. The females fault, female as fault. A part of herself as fault.</li>
+            <li>Male dominated society structure- more male values appreciated. Anorexics torwards these male values: Controll, power, discipline. (=The authour was a competitive runner in her teens and i read some of her other book about it, direct source)</li>
+            <li>Anorexia strips away her femininity (= Anorexia takes the mind and the body, if you didt figure it out the less weight a women has the less her &ldquo;feminine&rdquo; aspects are visible)</li>
+            <li><span style="color: rgb(84, 172, 210);">Culture makes the female believe that the feminine is lack</span>. (=The feminine seen as weak and pathethic, Most of the old stuff we consumed as kids were trough the POV a guy, making us think that is &ldquo;neutral&rdquo;</li>
+            <li>The starvation part was &ldquo;chosen&rdquo;, it isnt something willed on them by culture. So why? The anorexic has a &ldquo;male mind&rdquo;, the body is not the self. Thinking <span style="color: rgb(84, 172, 210);">being female is an unjust disadvantage</span>. Cartesian divide between body and mind. Seeking the control and &nbsp;forced burning</li>
+            <li>Hunger pain turned into hunger strike. (=refusal)</li>
+            <li>Hatred of body- hatred of self</li>
+            <li>Need for males to fill the emptiness/lack</li>
+            <li>Parallel to modernism: Anorexic wanting to reject herself in order to transcend to something &ldquo;higher&rdquo;</li>
+            <li><strong><span style="color: rgb(84, 172, 210);">Males treading females as just a body and nothing more</span></strong><span style="color: rgb(84, 172, 210);">&nbsp;</span>(= there was a good example of a professor the author had but idc to try to find it again lel) And the female responding to this as just a body. (= They are really a victim even if they initiated it either way because of the structures of society. See quote. )</li>
+        </ul>
+</details>
+	
+		<details>
+    <summary> Poem: Dedication to hunger by Cluck</summary>
+    <ul>
+     
+            <li>One about a daughters likeness with the father and the mothers self negation. The daughters identification with the father leads her to be an anorexic in training, because she looks different. <span style="color: rgb(84, 172, 210);">She dosent want to be like her mother.</span></li>
+            <li>Nexst part of the same poem its about the grandmother repressing herself for the grandfather in marrage: &ldquo;This is what marrage is&rdquo;</li>
+            <li>By trying to align herself with the father- the little girl gets into the same position as her mother and grandmother- powerlessness.</li>
+        </ul>
+    
+</details>
+		<details>
+    <summary>Poem: Anorexic by Boland</summary>
+    <ul>
+        <li>
+            <blockquote>
+                <p>"Yes, I am an evil body. Yes, I am a witch. Because I am this, I will destroy myself, this part of myself. I will become something else. I will become male, or at least not-female.""</p>
+            </blockquote>
+            <blockquote>
+                <p>"The speaker is an Eve who has accepted the male definition of herself as inherently evil, desiring, fleshly, and thereby responsible for the Fall and death of the human race. This punitive Eve longs to redeem herself through the loss of sexual difference and of the body that has caused all the problems in the first place. In a reverse parody of the psychoanalytic account of male self-differentiation from, and womb-longing for, his mother, here Eve wants to rejoin Adam, to literally become him again, to fit back into the rib from which she has ostensibly come, a fit accomplished by the &quot;burning&quot; of her body that she performs in the earlier stanzas of the poem.</p>
+            </blockquote>
+            <blockquote>
+                <p>"he lack of food leads to the lack of body, which leads to the lack of sin, which leads to a male subject position, or least to that prelapsarian state of gender identity before sexual difference&mdash;before the inevitable split and rejection when &quot;us&quot; is not necessarily different from &quot;them,&quot;  <span style="color: rgb(84, 172, 210);"> when the boys will still play with us at recess." </mark></p>
+            </blockquote>
+        </li>
+    </ul>
+</details>
+		
+		<details>
+    <summary>Quotes</summary>
+    <ul>
+        <li>
+            <blockquote>
+                <p>"the anorexic self-image is a black hole, a cavernous nothingness; a disruption of the sense of linear time, so that the present becomes a synecdoche for past and future and all of lived experience; an experience of the mind and body as radically split, with the mind struggling to control the body;<span style="color: rgb(84, 172, 210);">&nbsp;an increasing isolation, a sense of superiority to and lack of emotional contact with others; a complete suppression of sexuality, as well as loss of secondary sexual characteristics; and a marked identification with the masculine and simultaneous rejection of the feminine, along with a paradoxical attempt to accede to beauty standards of thinness."</span></p>
+            </blockquote>
+            <blockquote>
+                <p>"The lack of food leads to the lack of body, which leads to the lack of sin, which leads to a male subject position, or least to that prelapsarian state of gender identity before sexual difference&mdash;<strong><span style="color: rgb(84, 172, 210);">before the inevitable split and rejection when &quot;us&quot; is not necessarily different from &quot;them,&quot; when the boys will still play with us at recess"</span></strong></p>
+            </blockquote>
+            <blockquote>
+                <p>"Certain female children dedicate themselves to hunger, that is, to starving away their flesh, in an attempt to thwart the death with which the cultural narrative has equated them."</p>
+            </blockquote>
+            <blockquote>
+                <p>"She participates in a fetishistic structure in that her denial of her body that results in a more &quot;masculine&quot; body becomes a fetish intended to cover what she perceives as lack, her female body. She makes herself indeterminately gendered. <span style="color: rgb(84, 172, 210);">The anorexic body functions as a disavowal of gender or as a postponement of a choice between masculine and feminine</span>". (= There are typical &quot;ana&quot; aesthethics that are seen as child-like. Ive heard people regress into their childhood interests when their disorder gets bad)</p>
+            </blockquote>
+            <blockquote>
+                <p>"Self-starvation is a process anorexics have <span style="color: rgb(84, 172, 210);">decided for themselve</span>s, a subject position they have <em>chosen</em> , paradoxically, as a means of self-definition. The starved body <span style="color: rgb(84, 172, 210);">becomes their identity</span>, their identity &nbsp;<em>is</em> the process of self-cancellation. This is not something willed upon them by culture&mdash;everyone around them becomes united in an attempt to facilitate a &quot;cure.&quot; Still, there is something strange in these torturous twists. <span style="color: rgb(84, 172, 210);">If anorexia is a choice, <em>why</em> do so many women choose it?&nbsp;</span>(&hellip;) For anorexics the body is experienced as entirely distinct, as &quot;other&quot;; the body is not the self. <span style="color: rgb(84, 172, 210);">The body is gendered female, while the mind that attempts to control it is gendered male.</span><strong>[60]</strong> Bruch writes in <em>The Golden Cage</em> that"</p>
+                <blockquote>
+                    <p>"many [anorexics] experience themselves and their bodies as separate entities, and it is the mind&apos;s task to control the unruly and despised body. Others speak of feeling divided, as being a split person or two people. . . . when they define this separate aspect,<span style="color: rgb(84, 172, 210);">&nbsp;this different person seems always to be a male. . . . They had felt throughout their lives that being a female was an unjust disadvantage, and they dreamed of doing well in areas considered more respected and worthwhile because they were &quot;masculine.&quot;</span> Their overslim appearance, their remarkable athletic performances, with perseverance to the point of exhaustion, give them the proud conviction of being as good [as men]"</p>
+                </blockquote>
+            </blockquote>
+            <blockquote>
+                <p>"It is, I argue, crucial to<span style="color: rgb(84, 172, 210);"><strong>&nbsp;reread modernism</strong></span> when we are trying to understand anorexia, because it is in modernism we find the kind of truth claim that may be e<span style="color: rgb(84, 172, 210);">ven more influential&nbsp;</span>than the dominant media images and beauty ideals for <span style="color: rgb(84, 172, 210);">women that are so often said to &quot;cause&quot; the disease.</span>(&hellip;) The individualism of the modernist artist or artist figure sets a paradigm for the anorexic, who wants beyond all things to be different, to stand out as superior. The claim to superiority and truth within modernism most often involves the renunciation of the feminine, just as the anorexic excises the outward sign of her femininity in her quest for distinction."</p>
+            </blockquote>
+            <blockquote>
+                <p>"<span style="color: rgb(84, 172, 210);">Indisputable ontological &quot;truths&quot; to which only the privileged, enlightened, masculine subject has access. Anorexia stands as the internalization of these &quot;truths&quot;&mdash;what the anorexic thinks will gain her membership to the club.</span> Any analysis of our culture today that includes eating disorders like anorexia as part of its inquiry needs to look to modernist literature to understand the mystic writing pad, the palimpsest that underlies those disorders."</p>
+            </blockquote>
+            <blockquote>
+                <p>"I assumed to a certain extent that there was something essentially wrong with me, something tainted or polluted, because I was defined as body, as sex. It was an impossible circle: I got attention for sexual attractiveness, and this made me then interact accordingly. But that same attractiveness was used to discount me as a person, and it was the recognition of my value as a person&mdash;of which I was uncertain&mdash;that I was after in the first place. Yet, because I had willingly put myself in that position, I also felt to a certain extent that there was something fatally flawed within me. If I was treated as body, not being, there must be something in me that deserved it, that solicited this response."</p>
+            </blockquote>
+            <blockquote>
+                <p>"he treated me as body, nonagent, nonbeing."</p>
+            </blockquote>
+            <blockquote>
+                <p>"if he had been treating me like a sexual object, well, I had presented myself that way."</p>
+            </blockquote>
+            <blockquote>
+                <p>"I willingly participated in this dynamic, since,<span style="color: rgb(84, 172, 210);">&nbsp;to the naive and immature woman, it seems to offer a kind of power that masks the dehumanization actually taking place</span>(&hellip;) From the perspective of one set of assumptions about the world&mdash;the business-as-usual perspective that says, &quot;Boys will be boys,&quot; and &quot;If women ask for it, what&apos;s the harm&quot;&mdash;my experience with this professor wasn&apos;t harassment at all. From the perspective of some versions of feminist theory,<span style="color: rgb(84, 172, 210);"><strong>&nbsp;I had constructed myself according to the dictates of a system that made me a willing participant in my own harassment.(&hellip;) I felt that I had missing limbs, these were limbs I had at least partially amputated myself. I was emotionally frozen and did not regain a sense of feeling until I articulated my experience."</strong></span></p>
+            </blockquote>
+            <blockquote>
+                <p>"In <em>The Golden Cage</em> , Bruch reports that for many of her anorexic patients, the fathers treated the anorexics &quot;intellectually as sons; [one] was particularly proud that [his daughters] all knew how to throw a ball &apos;correctly&apos; (namely, like a boy).... It is significant that the fathers value their daughters for their intellectual brilliance and athletic achievements [and] rarely if ever do they pay attention to their appearance as they grow into womanhood, though they will criticize them for becoming plump&quot; (26). <span style="color: rgb(84, 172, 210);">Taking the cue from Daddy and the world defined as his tradition, the anorexic identifies with those aspects of herself that are termed &quot;masculine&quot; and therefore valued.</span> She struggles against those aspects of herself designated &quot;feminine&quot; in a struggle that becomes articulated in bodily terms. Yet, in her emptiness, in her desire to please and to succeed at pleasing, she struggles to attain ideal physical femininity, even as she strives to cancel it out. Her thin body is her masculine achievement that, until her anorexic artistry goes too far, is the embodiment of cultural standards of female beauty."</p>
+            </blockquote>
+            <blockquote><br></blockquote>
+        </li>
+    </ul>
+</details>
+
+	</div>
+	  <div id="book-2" class="full-article">
+        <h2>The Ethics of Authenticity</h2>
+			<p class="p-note"> Talks about the false definition of authenticity which is self destructive and anti-authenthic. People are self-centered and only focused on whats going on around them, but its self-defeating because we shut ourself from the world and our lifes gets narrowed down. The belief of no higher meaning or purpouse to live for crushes us... This book was written around 40 years ago but is still relevant. "Taylor asked what were the philosophical foundations of our culture's obsession with being authentic or true to our personalities, rather than serving our communities as the ancients often strived to do"- by <a href="https://www.philosophyforlife.org/blog/charles-taylor-and-authenticity">Philosophy for life</a></p>
+	
+	<details>
+    <summary>Content</summary>
+    <ul>
+        <ul>
+					<li><blockquote>"In other words, the relativism was itself an offshoot of a form of individualism, whose principle is
+something like this: everyone has a right to develop
+their own form of life, grounded on their own sense
+of what is really important or of value. People are
+called upon to be true to themselves and to seek their
+own self-fulfilment. What this consists of, each must,
+in the last instance, determine for him- or herself. No
+one else can or should try to dictate its content.(...) This individualism involves a centring on
+the self and a concomitant shutting out, or even
+unawareness, of the greater issues or concerns that
+transcend the self, be they religious, political, historical. As a consequence, life is narrowed or flattened " </blockquote> </li>				
+					
+					
+            <li>References the book called something like &ldquo;The American loss of mind&rdquo; and explains the American moral position of: &ldquo;One ought not to challenge another&apos;s values. That is their concern, their life choice, and it ought to be respected. The relativism was partly grounded in a principle of mutual respect.&rdquo; (= M- Can observe this today: Self improvement channels always encouraging <strong>You</strong> to just find your own path and simply focus on that path except for anyone else)</li>
+            <li>Individualism!</li>
+            <li>
+                <blockquote>&quot;Being true to myself means being true to my originality, and that is something only I can late and discover. In articulating it, I am also defining myself. I am realizing a potentiality that is properly my own. This. is the understanding te the modem ideal of authenticity, and to the goals of self-fulfilment or self-realization in which it is usually couched. This is the background that gives moral force to the culture of including its most degraded(d, absurd: of forms. It is what gives sense to the idea of doing your own thing&quot; or &quot;finding your own fulfilment&quot;</blockquote>
+            </li>
+            <li>There is a <strong>relativism</strong> (Something is correct only in relation to a perspective) close to individualism: &ldquo;Everyone has a right to develop their own form of life, grounded on their own sense of what is really important or of value (&hellip;) No one else can or should try to dictate its content.&rdquo;</li>
+            <li>Flat life, unawareness of greater issues, shutting out from life- individualism that only focuses on individual</li>
+            <li><br>
+                <ul>
+                    <li>Conformity of people &quot;striving to be themselves&rdquo;</li>
+                </ul>
+            </li>
+            <li>Referencing other authors criticizing the moral framework. Also criticising these saying that the other authors missed out the &ldquo;moral ideal work&rdquo; happening in the background. (= I figure he means that the other authours misses out that there is a background force behind why so many people feel called to do this.) Taylor writes: &ldquo;The point is that today many people feel called to do this, feel they ought to do this or they feel their lives would be somehow wasted or unfulfilled if they didn&apos;t do it.&rdquo; (=Very related to one of Mark Fishers video lectures where he is saying people feel a pressure to behave a certain way and to especially look at their phones and be online all the time.)</li>
+            <li>Claims that &ldquo;Some forms of life are indeed higher than others&rdquo;, but culture of &ldquo;individual self fulfillment&rdquo; shies away from this, but is still powered by a moral ideal</li>
+            <li>People are neutral on what is supposed to what is a good life. The thing is that authenticity need moral judgements to find out if its &ldquo;worthy&rdquo;, but the culture of &ldquo;liberalism of neutrality&rdquo; wont let do.</li>
+            <li>Moral subjectivism. (I decide what is good or bad)- You cant argue with ppl</li>
+            <li>Modern freedom is seen as breaking free from the horizon of our past: Religion and authority.</li>
+            <li>THE DISENCHANTMENT OF THE WORLD (Marx Weber yay): People no longer have a sense of higher purpouse. People lost what was beyond their lifes and instead focused on their own individual life-narrowing.</li>
+            <li>We are expected to develop our own opinions by oursefls trough solitary reflection. But this dosent work such as the definition f our identity- we define ourselfs in dialogue with others.</li>
+            <li>Sense of self is relational!</li>
+            <li>Two ways the self-centered authenticity fails: Ignores demands of our ties with others, and ignoring demands from anything more or other than human desires.</li>
+            <li><strong>Your own feelings cant determine what is significant</strong>.</li>
+            <li>
+                <blockquote>"The agent seeking significance in life, trying to define him- or herself meaningfully, has to exist in a horizon of important questions. That is what is self defeating in modes of contemporary culture that concentrate on self-fulfilment in opposition to the demands of society, or nature, which shut out history and the bonds of solidarity. These self-centred &quot;narcissistic&quot; forms are indeed shallow and trivialized; they are &quot;flattened and narrowed,&quot; as Bloom says. But this is not because they belong to the culture of authenticity. Rather it is because they fly in the face of its requirements. To shut out demands emanating beyond the self is precisely to suppress the conditions of significance, and hence to court trivialization. To the extent that people are seeking a moral ideal here, this is self-stultifying; it destroys the condition in which the ideal can be realized."</blockquote>
+            </li>
+					<li> <strong> Horizon of significance: </strong> (= You can only define something in relation to something else. When someone, like, say they want to start a business and be &ldquo;independent&rdquo; because that way they will be happy, they are relying on a background assumption that this is noble, independent, significant, and that it is seen as more &ldquo;valuable&rdquo; than other stuff. Its a pre-existing belief.)</li>
+        </ul>
+    </ul>
+</details>
+	
+			<details>
+    <summary>Miscellaneous</summary>
+    <ul>
+        <ul>
+            <li>
+                <p>=Waddya think? Are people really focusing on themselves so much that they become rootless and empty because they have gone so far that they have severed themself from the world? Is this stuff really happening today&hellip;?</p>
+            </li>
+            <li>
+                <p>Someones notes about this book, but way better written: <a href="http://www.markwk.com/book-notes-ethics-of-authenticity.html">Book Notes: The Ethics of Authenticity by Charles Taylor | Mark Koester</a></p>
+            </li>
+        </ul>
+    </ul>
+</details>
+			
+			
+	
+	</div>
+	  <div id="article-3" class="full-article">
+        <h2>The contemporary malaise of interpassivity: On feeling,  subjectivation, and automation</h2>
+            <p class="p-note">  "This article presents and discusses the concept of interpassivity as a possible unconscious dynamic constitutive of the new forms of contemporary malaise and how it is implicated in the dynamics of subjectivation and enjoyment. (...) Interpassivity may be the main dynamic leading to a potential disappearance of unconscious subjectivity."
+</p>
+			
+			<details >
+    <summary>Some mentioned terms:</summary>
+    <ul>
+        <li style="color: rgb(84, 172, 210);">
+            <p>Note: This paper uses a lot of new terms and references a lot of new people that you probably didnt know of!</p>
+        </li>
+        <li>
+            <p><strong>Interpassivity</strong>: Instance where something consumes, beliefs or feels instead of the original consumer. When what you consume feels emotions so that you dont have to feel them. Mentioned example: The laughter in american sitcoms and how tunder finds a match for us, relieving the duty to find someone(= Makes me think about the way we watch movies and youtube videos and short content where someone is exsperiencing some &quot;higher&quot; parts of life so that we dont have to go trough the struggle ourselfs&quot;</p>
+        </li>
+        <li>
+            <p><strong>Subjectivity</strong>: Individual exsperiences, self, &nbsp;</p>
+        </li>
+        <li>
+            <p><strong>Desubjectification</strong>: Not being subject anymore</p>
+        </li>
+        <li>
+            <p><strong>Manualism </strong>and <strong>automatism</strong>: =From having to do stuff ourself to having stuff get done for us.&nbsp;</p>
+        </li>
+        <li>
+            <p><strong>Disillusionment</strong>: Gradually loosing magical or perfect belief in something. (=reminds me of Marx webers disenchantment of the world, the definition is tough to come across so idk if this is correct)</p>
+        </li>
+        <li>
+            <p><strong>Proletarianization</strong>: (google: &quot;Social process whereby people move from either being an employer, unemployed or self employed, to being employed as a wage labourer by an employer&quot;). The texst dwells deeper with proletarianziation within the persons inner life by becoming a victim under the industrial wages. About the mechanization of mind</p>
+        </li>
+        <li>
+            <p><strong>Hypermodern</strong>: (=idk tbh, mayhaps the word is straightforward)</p>
+        </li>
+        <li>
+            <p><strong>Mediacracy</strong>: Social dominance where power is trough the media and public opinion. (=less thinking and more consuming</p>
+        </li>
+    </ul>
+</details>
+			<details>
+    <summary>Content</summary>
+    <ul>
+        <li>
+            <p>There has been a major cultural shift where the way we feel about objects around us- has changed (ex: vintage, tv series and movies belonging to previous gen.). This implicit reveal that we have lost something and this has to do the way we perceive the things around us.<span style="color: rgb(84, 172, 210);">&nbsp;Things are seen as something that has already been felt</span>:&nbsp;</p>
+        </li>
+        <li>
+            <p>This is where Interpassivity comes in- where what we consume feels our emotions so that we dosent have to. The example that demonstrates interpassivity pretty neatly: &quot; a man goas to a bar, orders a beer, and pays for it. But then he asks someone else to drink it for him. Having finished the beer, our hero leaves the bar satisfied&quot;. Delegated pleasure/consumption. Tinder finds your potential lover for you. It is an illusion of action. (= the characters in your favorite shows get to experience life so that you dont have to, and the social meda personas is living the dream you want, literally we rely on third party sercives to store our memories for us. This is connected to Mark Fishers <span style="color: rgb(84, 172, 210);">Depressive hedonia</span> and <span style="color: rgb(84, 172, 210);">Reflexive Inpotence</span>.)</p>
+        </li>
+        <li>
+            <p>Ingenious people is mentioned as an example: The Haitans voodoo practices was seen as symbolic killing of a person even though the actual person wasnt harmed. But the haitans were <strong><span style="color: rgb(84, 172, 210);">AWARE&nbsp;</span></strong>they were using magic and that their acts are symbolic...The dating app person dosent know... &nbsp;</p>
+        </li>
+        <li>
+            <p>In religion- the subject wont ever take distance from their illusion, but with media and such, the subject does not distance itself from it... (Simply, awareness. I feel like we are too busy to ever trying to think or act outside of our daily lifes. I think pretty much everyone in this boat. )</p>
+        </li>
+        <li>
+            <p>Interpassivity is a key concept for understanding what is happening to our subjectivity. &nbsp;(Interpassivity echoes a connection to the philosophers Mark fisher, Karl Marx, Theodore Adorno. Its a very lovley term and argument i want to exsplore more because i find it necessary to educate oneself about the world around one. )</p>
+        </li>
+        <li>
+            <p>If ideology makes a false conciousnes then sensology can create that refers to something thats &quot;already felt.&quot;</p>
+        </li>
+        <li style="color: rgb(84, 172, 210);">The narcissist the world is the mirror in which he looks at himself (=VERY related to the authenticity of ethics by Charles Taylor which i also posted my notes/summary on here.</li>
+      <li> Automatism creates the conditions of the already heard, already done, and already felt. So today, everything has already been calculated, imagined, and desired before the subject could ever do it.</li>
+      The<span style="color: rgb(84, 172, 210);">&nbsp;Mediated creation of desire</span>: Something creating a new desire for the subject. You see something you didnt think you needed in an add on your phone..</li>
+       These aforementioned affects shape our PSYCHIC INVESTEMENTS... (Mark fishers capitalist realism: There is no other alternative to capitalism, we cannot imagina another alternative reality apart from capitalism..)</li>
+        <li>Note: It isnt technology fault, but the way it is used.</li>
+        <li>Argues for <span style="color: rgb(84, 172, 210);">the disappearance of unconscious subjectivity</span> because of automation. (Search Lacans term of the &quot;decentering&quot; of the subject.). (= &quot;THE <strong>DISSAPEARANCE OF UNCINCIOUS SUBJECTIVITY</strong>&quot; Truly i SHRUDDERED when i read this. I do feel like today our beautiful and tender inner worlds arent as fruitful as in the past. This is expressed trough lack of emotion, expression, and empathy- especially empathy! It feels as if we have missed something holy and drowned out our pretty humanity. I miss the feeling i had when i was a kid and treated everything around me with a slow softness where i felt like everything was small, present, and loving. Like when Chesterton described the preciousness one felt if they would imagine themself barley surviving a shipwreck, stranded on an island, with their &quot;insert object of choise, in my case, a cup&quot;. The preciousness one would feel torwards that object then ha! )</li>
+        <li>(= A lot of complicated words used at this point and i even fell asleep while reading. Basically we are losing our &quot;unconcious&quot; because of the automated-digitized world that thinks, works, and stores our memory for us. )</li>
+        <li>The process of <strong>DESUBJECTIFICATION&nbsp;</strong>leads the subject to become &quot;<span style="color: rgb(84, 172, 210);"><strong>AN INDIVIDUAL WITHEOUT DEPTH</strong></span>&quot; (=Didnt quite read well up on this, but want to explore this in depth to understand more.)</li>
+        <li>We feel so pressured by the other identities/aesthetics/ideals introduced to us by the media that it disconnects us</li>
+        <li>Interpassivity squanders energy and creativity</li>
+        <li>The mirrored world. The environment is unreflective, closed off to other possibilities/perspectives. (=Read my notes/summary on Charles Taylor The Ethics of Authenticity because this is so much relatable! = The world is turned inwards torwards the subject, with its algorythms, neoliberal ideology and the societal need to fit in. Trough social media which is self-absorbation; the consumer consuming their own desiers trough a reflected mirror of algorythm. The individual is closed off... But in turn, turned sinful, egocentric, narcissistic, unempathic and terrible shallow!)&nbsp;</li>
+        <li>The balance of psychic life is formed with the nonhuman enviorment.</li>
+        <li>THE ADVICE/SOLUTION?!: Having the guts to turn away from a tempting feast of excesses- witheout falling nto asceticism, giving meaning to what is exsperienced, curiosity and daring to &quot;question oneself&quot;. ITS ABOUT <span style="color: rgb(84, 172, 210);">UNDERTSANDING THE CONTROLL AND NORMS INPOSED ON US AND HOW TO DEFUSE IT!</span></li>
+    </ul>
+</details>
+
+			   <details>
+    <summary>People mentioned&nbsp;</summary>
+    <ul>
+        <li>
+            <p>Mario Perinola</p>
+        </li>
+        <li>
+            <p>Bernard Stiegler</p>
+        </li>
+        <li>
+            <p>Jean Baudrillard</p>
+        </li>
+        <li>
+            <p>Giles Deleuze</p>
+        </li>
+        <li>
+            <p>D.W Winnicott</p>
+        </li>
+        <li>
+            <p>Evgeny Morozov</p>
+        </li>
+        <li>
+            <p>Vittorio Baranzoni and Roberto Vigola</p>
+        </li>
+        <li>
+            <p>Robert Pfaller</p>
+        </li>
+        <li>
+            <p>Rene Kaes</p>
+        </li>
+        <li>
+            <p>Massimo Recalcati (The potentioal for the unconcious to dissapear is a key theme of his work!)</p>
+        </li>
+        <li>
+            <p>Cornelius Castoriadis</p>
+        </li>
+        <li>
+            <p>Giorgio Agamben</p>
+        </li>
+        <li>
+            <p>Tereza Kuldova</p>
+        </li>
+        <li>
+            <p>Harold Searles</p>
+        </li>
+    </ul>
+</details>  
+<details>
+    <summary>Quotes</summary>
+    <ul>
+        <li>
+            <blockquote>
+                <p>&quot;As Mario Perniola (1991) argues in one of his essays, entitled Del sentire, to our grandparents, objects, people, and events showed themselves as something to be felt, of which they had an internal experience ... t<span style="color: rgb(84, 172, 210);">o us, on the other hand, objects, people, and events show themselves as something already felt, occupying an already determined sensory, emotional, and spiritual tone.</span> The feeling has acquired an anonymous, impersonal, and socialized dimension that needs to be traced.&quot;&nbsp;</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;An interpassive mediator produces a false activity that is formed trough a ritual act.&quot; (=<span style="color: rgb(235, 107, 86);">dint quite understand</span>)</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;Today, we are in the age of automatism, in which technological evolution as placed at the center the role of automated objects that do things in place of people, and which create the conditions of the already heard, the already done, and the already felt.&quot;</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;Indeed, <strong>disillusionment </strong>leads to the birth of desire, accepting the elusive nature of the external reality and accepting it for what it is lacking. The risk is that such disillusionment may turn into disappointment (delusion) if there hasn&rsquo;t been a gradual transition between what is created, hallucinated, and what does not find immediate availability. The risk of automation&mdash;but also its miracle&mdash;lies precisely in the absence of intermediate steps and gradients that allow for disillusionment&quot; (<span style="color: rgb(235, 107, 86);">= ? I did not quite understand this one to be honest..</span>.)</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;In our view, the shift from manualism to automatism and the proliferation of processes of proletarianization, primarily due to the dispositives of digital tertiary retention (Stiegler, 2015/2016), represents one of the events responsible for the<span style="color: rgb(84, 172, 210);"> disappearance of unconscious subjectivity</span>, because automation has, from a certain point of view, placed the subject outside itself, in what Lacan (1978/1991) defined as a &lsquo;&lsquo;decentering&rsquo;&rsquo; of the subject.&quot;&nbsp;</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;The experience of the unconscious seems to be threatened by what Lacan (1972) defines as the &lsquo;&lsquo;discourse of the capitalist,&rsquo;&rsquo; which is why our hypermodern era stands in antagonism to how we experience the unconscious, and of which prevalent symptomologies such as pathological addictions, anorexia, bulimia, depression, and panic attacks are expressions.&quot; (=Mark Fisher said something similar in CAR; disorders are a result of Capitalist Realism)</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot; According to Recalcati (2010), we are faced with &lsquo;&lsquo;a clinic of solid identification, centered on excessive identification with social semblances that seems to erase desire and its subjectivation, and in which the imaginary, disconnecting from the symbolic, gives rise to hyper-identifications&rsquo;&rsquo; (p. 22).</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;<span style="color: rgb(84, 172, 210);">It is through the word that the human responds to the human, that introduces it into humanity</span>.&quot; (=See My notes on Ethics of Authenticity! Taylor mentioned this aswell! I like this. )</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;<span style="color: rgb(84, 172, 210);">On the contrary, an environment that is unreflective and closed off in the face of the subject&rsquo;s projective and identifying movements can bring out psychopathological dynamics, even with extreme manifestations.</span>&apos; &quot; (=IBID)</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;That fill the void of the word and of the power of action. In this vein, what connects interpassive practices and narcissism lies in the fact that the current sociocultural condition does not only confront us with the condition of producing interpassivity but also of undergoing it.&quot; (= A bit confused of what is meant by &quot;undergoing&quot;)</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;According to Searles, a human being&rsquo;s ability or inability to have a constructive relationship with the nonhuman environment contributes in no small way to their psychic equilibrium or lack thereof. For Searles, psychoanalysts of his era were placing greater emphasis on the interpersonal context, yet neglecting the individuation stage in which the child begins to feel separate from the nonhuman environment. The infans&rsquo; condition of &lsquo;&lsquo;subjective fusion&rsquo;&rsquo; with the nonhuman environment could condition the whole course of development, both normal and pathological since in the individual this fusion persists throughout life. The operation Searles proposes is to shift attention to what happens concerning this nonhuman environment, a context that can thus be considered an integral part of the formation of psychic life, and that is in turn reshaped by the relationship one establishes with the objects of technology.&quot;</p>
+            </blockquote>
+        </li>
+        <li>
+            <blockquote>
+                <p>&quot;There is no doubt that what allows us to &lsquo;&lsquo;fight&rsquo;&rsquo; forms of disintegration of subjectivity, both in psychoanalysis and philosophy, is perhaps the <span style="color: rgb(84, 172, 210);"><strong>development of critical thinking</strong></span>, of anticipating what can already be anticipated. But more than anticipation, what resonates so strongly in Stiegler&rsquo;s (2015/2016) and Deleuze&rsquo;s (1990/1997) philosophies, is that in the proletarianization of thought, in the forms of tertiary retention allowing for irreversible externalizations or mere insignificant projections (that is, not signified), there is an improper appropriation of a third party, such as the <span style="color: rgb(84, 172, 210);">societies of control.</span> And yet, what is controlled should be more secure, but the cracks in the subject almost always reveal contradictions (...) <span style="color: rgb(84, 172, 210);">Reappropriating desire means assuming a critical responsibility in the face of a tempting feast of excesses,</span> without falling into asceticism, the other contemporary excess. Reappro-priating means &lsquo;&lsquo;giving meaning&rsquo;&rsquo; to what is experienced, not allowing oneself to be questioned, delegating the curiosity of self-doubt to a third party, but rather starting to &lsquo;&lsquo;<span style="color: rgb(84, 172, 210);">ask oneself</span>,&rsquo;&rsquo; beginning to directly operate transformations, to sublimate and be carried away by the time that each transformation requires. Ultimately, by reappropriating what is now our technological consistency, we could say that we need to hack ourselves (Gruppo di Ricerca Ippolita, 2019). T<span style="color: rgb(84, 172, 210);"><strong>he exercise lies in identifying the norm that new technological forms try to impose on us and understanding how to defuse it.</strong></span>&quot; (=Ive legit talked sm and want to talk and expslore this sm)</p>
+            </blockquote>
+        </li>
+    </ul>
+</details>
+			                        
+			  </div>
+    </div>
+				
+    
+    <div class="side">
+         <div class="side1"> 
+         <h3> People to-discover </h3>
+         <ul>
+             <li> Robert Pfaller </li>
+             <li> Eva Illouz </li>
+             <li> Dominkos Sik</li>
+             <li> Jodi Dean</li>
+             <li> Robert Pippin</li>
+            </ul>
+            
+            </div>
+            <hr>
+            <div class="side2">
+            
+    <h3>Interesting terms</h3>
+			 <ul> 
+				 <li><a href="https://aesthetics.fandom.com/wiki/User_blog:Doom-gloom-city-pop/Utopistic_Nostalgias#cite_note-:27-20">Utopistic Nostalgias</a> </li>
+				 <li> lost futures </li>
+				 <li> Musicology  </li>
+				 <li> The sonic dimensions of society </li>
+			  <li> Media ecology </li>
+				 <li> Dull euphoria </li>
+				 <li> Horizon of significance </li>
+				 <li> The new sincerity movement </li>
+				 	<li> Contemporary culture and Irony.  </li>
+
+			 </ul>
+  
+</div>  
+  </div>
+  </div>
+ 
+
+<div class="low">  
+	
+	<h1> My collection of articles </h1>
+	
+	<p class="p-note"> Here is my collection of articles from my personal Obsidian ! This list is continuously updating as i find more and more interesting stuff! </p>
+	
+	<br>
+    
+	<strong>
+		Articles that could be interesting to read:</strong><br>
+	<p> <a href="http://www.ccru.net/abcult.htm" target="_blank"> CCRU </a> - abstract culture</p>
+	
+	<p> <a href="https://sites.google.com/view/utopistic-nostalgias/homeintro?authuser=0" target="_blank"> Utopistic nostalgias</a>  Heavily inspired my "The slow cancellation of the Future" video series. Is literally packed with information that you will never get trough:
+ </p>
+	
+	<p> <a href="https://www.lukasmozdeika.com/publications/"> Website of a Norwegian cultural (mediaculture) researcher</a></p>
+
+	<p> <a href="https://journals.sagepub.com/home/JOC" target="_blank"> Journal of Consumer Culture </p>
+
+    <details>
+        <summary>Consumerism</summary>
+        <ul>
+            <li><strong>Half of vinyl buyers in the US don't own a record player!?</strong> (unread)<br>
+            <a href="https://hypebeast.com/2023/5/us-vinyl-buyers-record-player-report-study" target="_blank">50% Of US Vinyl Buyers Don't Have Record Players | Hypebeast</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>I plan to soon read</summary>
+        <ul>
+            <li><strong>Culture industry reconsidered written by Adorno</strong> (unread)<br>
+            I'm a bit unsure if I should consider giving this my time to read because of how old this paper is and Adorno's credibility<br>
+            <a href="https://intranet.royalholloway.ac.uk/mediaarts/documents/pdf/adornoculureindustryreconsidered.pdf#page=1.00" target="_blank">PDF Link</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Div</summary>
+        <ul>
+            <li><strong>Powerpoint slides of different popular culture theories</strong> (skimmed through)<br>
+            <a href="https://www.slideshare.net/slideshow/popular-culture-theories/52741769#1" target="_blank">Popular Culture Theories | PDF</a></li>
+            <li><strong>(Norwegian) Lyden av digitalisering: Preludium om musikk og medier</strong> (unread)<br>
+            <a href="https://www.scup.com/doi/10.18261/ISSN.0805-9535-2020-03-01" target="_blank">Norsk medietidsskrift</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Media Ecology</summary>
+        <ul>
+            <li><strong>YouTube: Online video and participatory culture</strong> (unread)<br>
+            Burgess and Green show how, over its more than a decade of existence, YouTube's dual logics of commerciality and community have persisted, generating new genres of popular culture, new professional identities and business models for the media industries, and giving rise to ongoing platform governance challenges.<br>
+            <a href="https://books.google.no/books?hl=en&lr=&id=mg1rDwAAQBAJ&oi=fnd&pg=PT5" target="_blank">Google Books</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Materialism</summary>
+        <ul>
+            <li><strong>Tim Kasser - Book</strong> (unread)<br>
+            How when we get more than we need we get more miserable, old like 2002<br>
+            <a href="https://www.goodreads.com/author/show/170296.Tim_Kasser" target="_blank">Goodreads</a></li>
+            <li><strong>Materialism and Social Media: The Digital Trap (Jesse J. Preston)</strong> (unread)<br>
+            Newer, update on Tim Kasser analyzing how the specific architecture of platforms like Instagram and TikTok accelerates materialistic values and the associated distress.</li>
+            <li><strong>Jang, S. (2018). "Social Media Use and Materialism: The Role of Social Comparison and Self-Esteem."</strong> (unread)<br>
+            Direct empirical evidence linking increased time on social networking sites to heightened materialism, mediated by the frequency of upward social comparison.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Slavoj Žižek / New Media / Media Ecology / Interpassivity</summary>
+        <ul>
+            <li><strong>SLAVOJ ŽIŽEK: About pseudo activity (interpassivity)</strong> (half read)<br>
+            Forcing to state of mindlessness - fake engagement, "authentic passivity", consumers being numb<br>
+            <a href="https://inthesetimes.com/article/will-you-laugh-for-me-please" target="_blank">Will You Laugh for Me, Please? - In These Times</a></li>
+            <li><strong>Yoshida, Miya (2008): "Interactivity, Interpassivity and Possibilities Beyond Dichotomy"</strong> (unread)</li>
+            <li><strong>Sublimation and "Schweinerei"</strong> (half read, discontinued)<br>
+            Theoretical Place and Cultural-Critical Function of a Psychoanalytic Concept<br>
+            <a href="https://www.journal-psychoanalysis.eu/articles/sublimation-and-schweinerei-theoretical-place-and-cultural-critical-function-of-a-psychoanalytic-concept/" target="_blank">European Journal of Psychoanalysis</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Blogs/Webs</summary>
+        <ul>
+            <li><strong>Social Quitting - Cory Doctorow</strong> (read)<br>
+            "Every social media service has costs (trolls, surveillance, ads, identity theft risks, etc) and benefits (community, commerce, family). So long as the benefits outweigh the costs, you'll probably stick around." "because they had so many of the people that mattered to us trapped inside them, and because they made it so hard to leave, they could really treat us like garbage without risking our departure."<br>
+            <a href="https://doctorow.medium.com/social-quitting-1ce85b67b456" target="_blank">Medium</a></li>
+            <li><strong>The Happy Feminist: LENGTHY POST ON FALSE CONSCIOUSNESS</strong> (read)<br>
+            False consciousness and feminism<br>
+            <a href="https://happyfeminist.typepad.com/happyfeminist/2006/07/on_false_consci.html" target="_blank">Link</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Good Articles To-Read</summary>
+        <ul>
+            <li><strong>The birth of the cool</strong> (unread)<br>
+            <a href="https://ramurrio.medium.com/paradigmatic-mind-and-liminal-mind-the-birth-of-the-cool-9e56081abd00" target="_blank">PARADIGMATIC MIND AND LIMINAL MIND: THE BIRTH OF THE COOL | Medium</a></li>
+            <li><strong>Kodwo Eshun - Abducted by Audio (Live)</strong> (unread)<br>
+            Dense and complex transcript of lecture by cultural theorist KODWO ESHUN. A deep dive into the philosophy of sound, music, and technology.<br>
+            <a href="http://www.ccru.net/swarm3/3_abducted.htm" target="_blank">Link</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Nick Land</summary>
+        <ul>
+            <li><strong>Hyperstition and Nick Land's Accelerationism: A Deep Reflection</strong> (unread)<br>
+            <a href="https://thebrazilianmutt.wordpress.com/2024/11/18/hyperstition-and-nick-lands-accelerationism-a-deep-reflection/" target="_blank">The Brazilian Mutt</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Mark Fisher</summary>
+        <ul>
+            <li><strong>A real punk.</strong></li>
+            <li><strong>The Slow Cancellation of Innovation: A critical look at modern funding</strong> (unread)<br>
+            <a href="https://goodscience.substack.com/p/the-slow-cancellation-of-innovation" target="_blank">Link</a></li>
+            <li><strong>Urbanomic Mark Fisher, 1968–2017</strong> (read)<br>
+            In memory of Mark Fisher, written by an acquaintance<br>
+            <a href="https://www.urbanomic.com/mark_fisher/" target="_blank">Link</a></li>
+            <li><strong>Mark Fisher (1968–2017) | Vagant</strong> (read)<br>
+            Norwegian: about Mark Fisher and what he stood for. "Mark sto for kvalitet og insisterte på at ideer er viktige, men han var ingen elitist. Jeg kan bare forestille meg desperasjonen som overmannet ham etter de nylige kataklysmiske nedturene for de vestlige demokratiene, men en depresjon kan vise seg umulig å holde i tømme også for de tilsynelatende mest rasjonelle av oss. Det er hjerteskjærende å tenke på hva kona og sønnen hans nå gjennomgår."<br>
+            <a href="https://www.vagant.no/mark-fisher-1968-2017/" target="_blank">Link</a></li>
+            <li><strong>k-punk: London after the rave</strong> (read)<br>
+            About the Burial Music album and the shift of atmosphere in London. Lost hopes<br>
+            <a href="http://k-punk.abstractdynamics.org/archives/007666.html" target="_blank">Link</a></li>
+            <li><strong>Mark Fisher's Post-Punk melancholy and lost future</strong> (half read)<br>
+            Goes more in-depth about Fisher's philosophy<br>
+            <a href="https://pigiamazine.com/2025/03/27/mark-fishers-post-punk-melancholy-lost-future/" target="_blank">Pigiama Magazine</a></li>
+            <li><strong>k-punk: Memorex for the Krakens: The Fall's Pulp Modernism</strong> (unread)<br>
+            Analysis by Mark Fisher on the band The Fall, particularly the song Spectre vs. Rector.<br>
+            <a href="http://k-punk.abstractdynamics.org/archives/007759.html" target="_blank">Link</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>On Neoliberalism</summary>
+        <ul>
+            <li><strong>The Neoliberal and How I Learned to Self-Exploit</strong> (read)<br>
+            On the forceful work ethic about the pressure to be productive at the cost of creativity. System sets us up to want to self exploit. Some Byung Chul Han: "a positive reinforcement that pushes people to constantly take on more, reach higher, and exceed limits. Yet, according to Han, this empowerment comes at a significant cost: the striving not for intrinsic fulfillment but an ever-elusive sense of worth tied to productivity." "I CAN -> I HAVE TO". "Rest is a sin; failure to achieve is a personal flaw. People internalize the belief that they are solely responsible for their success or failure, ignoring the systemic forces that set impossible standards in the first place. Trapped in a loop of striving and guilt-tripping."<br>
+            <a href="https://refractionpoint.substack.com/p/the-neoliberal-and-how-i-learned" target="_blank">Refraction Point</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Music and Sound</summary>
+        <ul>
+            <li><strong>Advice on how to discover more music</strong> (read)<br>
+            <a href="https://substack.com/home/post/p-159851860" target="_blank">The Internet Isn't Killing Music Discovery</a></li>
+            <li><strong>Structural Listening – The Avid Listener</strong> (read)<br>
+            A good article<br>
+            <a href="https://theavidlistenerblogcom.wordpress.com/2020/07/23/structural-listening/" target="_blank">Link</a></li>
+            <li><strong>Why you should really practice an instrument or do anything in the form of music play</strong> (read)<br>
+            <a href="https://news.uchicago.edu/how-your-brain-benefits-music" target="_blank">How your brain benefits from music: Big Brains podcast</a></li>
+            <li><strong>Becoming more mindful listeners, sociocultural understanding</strong> (read)<br>
+            Paper, cool design<br>
+            <a href="https://www.uscannenbergmedia.com/2024/09/22/why-you-should-listen-to-new-music/" target="_blank">Why you should listen to new music – Annenberg Media</a></li>
+            <li><strong>Protest music</strong> (read)<br>
+            <a href="https://thewoostervoice.spaces.wooster.edu/2024/04/12/music-and-the-power-to-make-social-change/" target="_blank">Music and the power to make social change – The Wooster Voice</a></li>
+            <li><strong>(AI) recommended to me: Key Articles and Resources</strong> (unread)<br>
+            Nick Jones explains why knowing a little about what makes music, and listening carefully, can reveal much more in a simple tune<br>
+            <a href="https://www.open.edu/openlearn/history-the-arts/music/listen-up-developing-appreciation-music" target="_blank">Open University</a></li>
+            <li><strong>Investigating the Culture of Mobile Listening: From Walkman to iPod</strong> (unread)<br>
+            <a href="https://link.springer.com/chapter/10.1007/1-4020-4097-0_7" target="_blank">SpringerLink</a></li>
+            <li><strong>The Playlist Experience: Personal Playlists in Music Streaming Services</strong> (unread)<br>
+            <a href="https://www.tandfonline.com/doi/full/10.1080/03007766.2015.1021174" target="_blank">Popular Music and Society</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Theodore Adorno and Music</summary>
+        <ul>
+            <li><strong>On the Fetish-Character in Music and the Regression of Listening</strong> (half read)<br>
+            <a href="https://yaleunion.org/secret/Adorno-On-the-Fetish-Character-in-Music-and-the-Regression-of-Listening.pdf" target="_blank">PDF Link</a></li>
+            <li><strong>Technologised consumer culture: The Adorno–Benjamin debate and the reverse side of politicisation</strong> (unread)<br>
+            <a href="https://journals.sagepub.com/doi/abs/10.1177/1469540518773819" target="_blank">Bohdana Kurylo, 2020</a></li>
+            <li><strong>Against guilty pleasures: Adorno on the crimes of pop culture</strong> (unread)<br>
+            <a href="https://aeon.co/essays/against-guilty-pleasures-adorno-on-the-crimes-of-pop-culture" target="_blank">Aeon Essays</a></li>
+            <li><strong>Adorno on film and mass culture: The culture industry reconsidered</strong> (half read)<br>
+            My favorite quote shown by Adorno: "Donald Duck in the cartoons and the unfortunate in real life get their thrashing so that the audience can learn to take their own beating".<br>
+            <a href="https://www.ejumpcut.org/archive/onlinessays/JC20folder/AdornoMassCult.html" target="_blank">Thomas Andrae</a></li>
+            <li><strong>Guest Blog - Peter Davison, How music speaks to power? The doubtful legacy of Theodor Adorno</strong> (read)<br>
+            <a href="https://kennethwoods.net/blog1/2012/01/26/guest-blog-peter-davison-how-music-speaks-to-power-the-doubtful-legacy-of-theodor-adorno/" target="_blank">Kenneth Woods - conductor</a></li>
+            <li><strong>Theodor Adorno's Theory of Music and its Social Implications by Moya K. Mason</strong> (read)<br>
+            Basically a criticism of Adorno's cultural elitism and sayings on music.<br>
+            <a href="https://www.moyak.com/papers/adorno-schoenberg-atonality.html" target="_blank">Link</a></li>
+            <li><strong>On Popular Music, by Theodor Adorno</strong> (half read)<br>
+            This distinguishes between passive and active listening, explaining how if you set aside other stimuli, though, and give music your full attention, you are engaged in active music listening<br>
+            <a href="https://listentobettermusic.wordpress.com/2014/08/16/on-popular-music-by-theodor-adorno/" target="_blank">Listen To Better Music</a></li>
+        </ul>
+    </details>
+	
+	<hr>
+	<h1> Educational Youtube videos</h1>
+		<ul>
+		<li> "We should not give up on the tradition of self help, but in self help culture and positive psychology it becomes an ideology and false conciousnes to make the indivdual and not the institution responsible for well being and misery" <a href="https://www.youtube.com/watch?v=QpYlSpzmYpY&t=3121s">Eva Illouz: The Happiness Imperative
+			</a>  </li>
+		</ul>
+	
+	
+<hr>	
+		<h3> Miscellaneous Quotes </h3>
+	
+	<blockquote> "By saying that the fiction of image aims to "rescue" us from TV, I again am not suggesting that television has diabolic designs, or wants souls. I'm just referring again to the kind of Audience-conditioning consequent to high doses, a conditioning so subtle it can be observed best obliquely, through examples. If a term like "conditioning" still seems either hyperbolic or empty to you, I'll ask you to consider for a moment the exemplary issue of prettiness. One of the things that makes the people on TV fit to stand the mega-gaze is that they are, by human standards, really pretty. I suspect that this, like most television conventions, is set up with no motive more sinister than to appeal to the largest possible Audience. Pretty people tend to be more pleasing to look at than non-pretty people. But when we're talking about television, the combination of sheer Audience size and quiet psychic intercourse between images and oglers starts a cycle that both enhances pretty images' appeal and erodes us viewers' own security in the face of gazes. Because of the way human beings relate to narrative, we tend to identify with those characters we find appealing. We try to see ourselves in them. The same I.D.-relation, however, also means that we try to see them in ourselves. When everybody we seek to identify with for six hours a day is pretty, it naturally becomes more important to us to be pretty, to be viewed as pretty. Because prettiness becomes a priority for us, the pretty people on TV become all the more attractive, a cycle which is obviously great for TV. But it's less great for us civilians, who tend to own mirrors, and who also tend not to be anywhere near as pretty as the images we try to identify with. Not only does this cause some angst personally, but the angst increases because, nationally, everybody else is absorbing six-hour doses and identifying with pretty people and valuing prettiness more, too. This very personal anxiety about our prettiness has become a national phenomenon with national consequences. The whole U.S.A. gets different about things it values and fears. The boom in diet aids, health and fitness clubs, neighborhood tanning parlors, cosmetic surgery, anorexia, bulimia, steroid use among boys, girls throwing acid at each other because one girl's hair looks more like Farrah Fawcett's than another's . . . are these supposed to be unrelated to each other? to the apotheosis of prettiness in a televisual culture?" (Et Unibus Pluram by David Foster Wallace) </blockquote>
+	
+
+</div>
+
+ <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script> 
+	
+	
+	
+	
+	
+	
+	</body>
+</html>

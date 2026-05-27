@@ -1,0 +1,200 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blopswebsite</title>
+  <!-- The style.css file allows you to change the look of your web pages.
+       If you include the next line in all your web pages, they will all share the same look.
+       This makes it easier to make new pages for your site. -->
+	<meta name="description" content="My website">
+  <meta name="keywords" content="HTML, CSS, colours, writing, personal, about me ">
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://blopswebsite.neocities.org/">
+	
+	  <link rel="icon" type="image/x-icon" href="https://artwork.neocities.org/pixels/119.gif">
+    <link rel="stylesheet" href="public/style.css">
+
+  </head>
+    <style>
+		
+		
+    body {margin: 0; }
+
+
+    .container {
+    display: grid;
+    grid-template-areas: 
+        "links big side"
+        "low low low";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+}
+		
+      
+           ul {
+             list-style: square inside url('https://pixelsafari.neocities.org/favicon/symbol/heart/f1577790.gif');
+
+}
+
+
+.big::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari and Opera */
+}
+
+
+    
+  
+
+		
+    .p1 {
+  font-family: "Courier New", courier;
+}
+   
+    
+ .low { grid-area: low;  border: 2px solid black;
+  width: 100%;
+       background-color:#302A27;
+   overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;}
+      
+    
+		
+
+         
+					 
+  </style>
+ 
+<body>
+
+
+  
+  
+ <div class="container">
+ <div class="links"> 
+    <strong> LINKS </strong> 
+            <button type="button" class="collapsible">Me</button>
+            <div class="content" style="display:none;">
+                <a href="/aboutme.html">About me</a><br>
+                <a href="/library.html">Library </a> <br>
+                <a href="/guitar.html">Guitar</a> <br>
+                <a href="/music.html">Music</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Knowledges</button>
+            <div class="content" style="display:none;"> 
+                <a href="/articles.html">Articles</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Æstetikk</button>
+            <div class="content" style="display:none;">
+                <a href="/labbe.html">Rabbit shrine</a> <br>
+                <a href="/links.html">Links</a>
+            </div>
+
+
+    <hr>
+
+   <p align="center">  I half-dislike talking about myself on here because i feel like youll get to know me eventually as you see more on this site- yk? 
+
+    
+   </p>
+    <p> I guess I am generally very upbeat, exspressful, and i love thinking deeply about things and learning and getting better and enjoying nature etc. I enjoy progress and growth. I like to sit in total silence. I like the taste and change of scenery. I have the habit of putting up a lot of things to work on and end up working on little. I am "nerdy".   </p>
+        <p> I dont know what i want to do with my future, yet. Traveling is a big thing i want to do and to actually create something/actually contribute to society. A goal of mine is to participate in organisations (update: im doing it!). <br> The school system sucks ass.    <img src="https://pixelsafari.neocities.org/favicon/animals/cat/cat5.gif"></a></p>
+
+
+       
+       
+  
+   
+   
+</div>
+                          
+ 
+   
+     <div class="big"> 
+<p> So waddups, yo. If you look around here long enough, maybe youll see that i mb write sorta wierd. Sorry about that lol I just suck at writing so please dont let that be a hinderance :) </p>
+
+<pre style="text-align: center;"> 
+
+
+
+<strong>Some stuff about me:</strong>
+</pre>
+
+<ul> 
+
+<li> <strong> Currently interested in/working prodjects: </strong> </li>
+<li> Web development </li>
+<li> Geography </li>
+<li> nature </li>
+<li> Media ecology (hiatus-ish) </li>
+<li> Making stuff (Ceramic figures, animation, drawing) </li>
+<li>  </li>
+
+</ul>
+
+
+<ul>  <li> <strong> Other interests: </strong> </li>
+<li> Philosophy  </li>
+<li> Theories about how society works </li>
+<li> Nature </li>
+<li> Psychology </li>
+<li> Youtube </li>
+
+
+</ul>
+
+
+
+  
+
+
+</div>
+     <div class="side"> <p>
+       <h3> Socials:</h3>
+       Discord- 1104524339887476787 Vinch3ll
+       <a href="https://www.goodreads.com/user/show/149499816-elise">Goodreads</a> <br>
+       <a href="https://letterboxd.com/3llz3/">Letterbox</a>
+       
+       <hr>
+       <h3> General interests: </h3>
+    Philosophy, Codings, Art, Music, Books, Space, Pepole,Language, Nature, Life, 
+       
+       
+       <hr>
+<p> I like everythings, i want to try a lot and im open to annything- so as a result from that i do a lot of stuff and i try a lot of stuff. Adimittedly there are things i havent really felt any interest in like cars and clothing- but i plan to change that around.<br> 
+Like. Idk about you but i feel like things like cars and clothing havent just come within reach of my exspanding interests. Cars are logical, and clothes are sociological  </p>       
+</div>
+  
+  
+  </div>
+ 
+
+<div class="low"> 
+  
+
+</div>
+
+ <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script> 
+  
+</body>
+</html>

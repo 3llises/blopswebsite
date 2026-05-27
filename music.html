@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blopswebsite</title>
+  <!-- The style.css file allows you to change the look of your web pages.
+       If you include the next line in all your web pages, they will all share the same look.
+       This makes it easier to make new pages for your site. -->
+	<meta name="description" content="My website">
+  <meta name="keywords" content="HTML, CSS, colours, writing, personal, ">
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Helps with adapting diff screens -->
+	
+	<link rel="canonical" href="https://blopswebsite.neocities.org/">
+	
+	  <link rel="icon" type="image/x-icon" href="https://artwork.neocities.org/pixels/119.gif">
+
+    <link rel="stylesheet" href="public/style.css">
+
+
+
+  </head>
+	<style>
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;  /* Ensures images stay aligned */
+
+}
+
+
+/* Remove the weird .image-text and long dash line under it */
+
+           
+             .image-text {
+      overflow: hidden;
+    }
+
+		
+					----------------------------------------------------------------------------------------
+
+
+		
+.album {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  flex: 0 0 auto; /* DO THIS INSTEAD OF just flex-shrink */
+
+
+}
+
+
+.album img {
+    width: 100px;
+  height: 100%;
+  object-fit: cover;
+    border: #6b6a6a solid 2px;
+
+}
+
+/* Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+    margin: 0px; /* Adjust this value to control the distance between the image and the tooltip */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;  /* Match the image size */
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  bottom: 100%;  /* Position it above the image */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+    
+#icon-img {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  width: 55%;
+  z-index: 1;
+}    
+
+.big p {
+  font-size: 14px;  
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: auto;
+}
+
+
+
+    </style>
+
+<body>
+<!-- Top Right Ribbon -->
+<a href="https://oopsiedoodle.com/freestuff/ribbons" title="This person makes cool ribbons! Check em out!">
+    <img src="https://oopsiedoodle.neocities.org/freestuff/ribbons/dreamerribbon.png" 
+         alt="dreamer ribbon" 
+         style="width: 10%; height: auto; position: absolute; top: 5%; right: 5%; z-index: 2;">
+</a>
+
+<!-- Top Left Ribbon -->
+<a href="https://oopsiedoodle.com/freestuff/ribbons" title="This person makes cool ribbons! Check em out!">
+    <img src="https://oopsiedoodle.neocities.org/freestuff/ribbons/dreamerribbon.png" 
+         alt="dreamer ribbon" 
+         style="width: 10%; height: auto; position: absolute; top: 5%; left: 5%; z-index: 2;">
+</a>
+
+  
+
+
+
+  
+ <div class="container">
+
+<div class="firkant" >
+   
+
+</div> 
+
+<div class="sidefirkant">
+
+
+
+
+
+
+    </div>
+
+    <div class="bigimage"> 
+<img src="public\Pictures\musickbackground1.jpg" class="fit-img" style="width: 100%; height: 100%; object-fit: cover;  background-size: cover;    
+  background-position: center; 
+  background-repeat: no-repeat;">
+</div>
+
+
+  <div class="links"> 
+     <strong> LINKS </strong> 
+<button type="button" class="collapsible">Me</button>
+            <div class="content" style="display:none;">
+                <a href="/aboutme.html">About me</a><br>
+                <a href="/library.html">Library </a> <br>
+                <a href="/guitar.html">Guitar</a> <br>
+                <a href="/music.html">Music</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Knowledges</button>
+            <div class="content" style="display:none;"> 
+                <a href="/articles.html">Articles</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Æstetikk</button>
+            <div class="content" style="display:none;">
+                <a href="/labbe.html">Rabbit shrine</a> <br>
+                <a href="/links.html">Links</a>
+            </div>
+
+<hr>
+   
+		<p> It feels great to see this list slowly evolve ! </p>
+		<h2> Links to music places </h2> <ul>
+		<li> <a href="http://djsets.hyperreal.org/">The Hyperreal DJ Sets</a>   </li>
+		<li>		<a href="https://www.progarchives.com/">The prog archives </a> </li>
+		<li> <a href="https://rateyourmusic.com/"> Rateyourmusic </a> </li>
+		</ul>
+		
+</div>
+                          
+ 
+   
+     <div class="big"> 
+       
+			 
+<div class="image-container"> 
+	<h2> Albums </h2> <p>Good findings </p>
+	
+		<div class="album tooltip">
+    <img src="https://f4.bcbits.com/img/a0370040256_16.jpg" alt="Giles Corey ">
+    <span class="tooltiptext">Giles Corey - Giles Corey </span>
+  </div>
+	<div class="album tooltip">
+    <img src="https://e.snmc.io/i/600/w/4d6d4aa59f539c209ce70807e7632d5b/6614469/carissas-wierd-songs-about-leaving-Cover-Art.jpg" alt="Carissas Wierd">
+    <span class="tooltiptext">Songs About Leaving - 
+Carissa’s Wierd </span>
+  </div>
+	 <div class="album tooltip">
+    <img src="https://f4.bcbits.com/img/a3999385231_16.jpg" alt="Come and see by Gurriers">
+    <span class="tooltiptext">Come and see - Gurriers </span>
+  </div>
+	 <div class="album tooltip">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Thedevilandgodareraginginsideme.jpg" alt="Dark Side of the Moon">
+    <span class="tooltiptext">the devil and god are raging inside me - Brand new</span>
+  </div>
+	  <div class="album tooltip">
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/14/Bj%C3%B6rk_-_Vespertine_album_cover.png" alt="Vespertine Album">
+    <span class="tooltiptext">Bjork- Vespertine </span>
+  </div>
+	
+	 <div class="album tooltip">
+    <img src="https://m.media-amazon.com/images/I/517vOM-8iOL._SX300_SY300_QL70_ML2_.jpg" alt="Feldup Album">
+    <span class="tooltiptext">Stared at from a distance - Feldup </span>
+  </div>
+ 
+	  <div class="album tooltip">
+    <img src="https://flyingout.co.nz/cdn/shop/files/TheWillToDeath_Reissue.jpg?v=1686862694" alt="Frusciante Album">
+    <span class="tooltiptext">The Will to Death - John Frusciante </span>
+  </div>
+	
+	  <div class="album tooltip">
+    <img src="https://lh3.googleusercontent.com/PRq6OW21_wT_0a4kym8VnZ1_R2kxC0v5kPyvF1Te4lxvNNPttT8tsEmwuUyxYocclTgOvcIdzAbzMMkyFQ=w544-h544-l90-rj" alt="Frusciante Album">
+    <span class="tooltiptext"> Curtains - John Frusciante </span>
+  </div>
+ 
+		 <div class="album tooltip">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Steve_Hillage_Fish_Rising.jpg" alt="Ever by IQ">
+    <span class="tooltiptext">Fish rising - Steve Hillage</span>
+  </div>
+  <div class="album tooltip">
+    <img src="https://e.snmc.io/i/600/w/343100a891cdbbf5c3b6c2726be79dee/5901463/iq-ever-Cover-Art.jpg" alt="Ever by IQ">
+    <span class="tooltiptext">Ever - IQ</span>
+  </div>
+	 <div class="album tooltip">
+    <img src="https://t2.genius.com/unsafe/600x600/https%3A%2F%2Fimages.genius.com%2F455ef2da52efe53358be5a277a544b20.600x600x1.jpg" alt="The Pine">
+    <span class="tooltiptext">Days Slipping -
+The Pine </span>
+</div>
+		 
+	<div class="album tooltip">
+    <img src="https://i.discogs.com/m5YvREV84nz5LDxPzftcoH_IWMDOogzO3bBnUk9Ed2k/rs:fit/g:sm/q:90/h:573/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDA0/MTUtMTUxMTQ2Nzgy/MC0yODYwLmpwZWc.jpeg" alt="Giles Corey ">
+    <span class="tooltiptext"> Load my revolver - Her words kill </span>
+  </div>
+	
+		 
+
+	
+	
+	
+		
+	<p> Vibey  great stuff (Feels/vibes, no to little lyric) </p>
+	  <div class="album tooltip">
+    <img src="https://t2.genius.com/unsafe/600x600/https%3A%2F%2Fimages.genius.com%2F660bd93cf6ac2996b62688cd4b12975e.1000x1000x1.jpg" alt="Low">
+    <span class="tooltiptext">I could live in hope - Low</span>
+  </div>
+	  <div class="album tooltip">
+    <img src="https://f4.bcbits.com/img/a3523833494_16.jpg" alt="Otto benson">
+    <span class="tooltiptext">Songs before bed - Otto benson</span>
+  </div>
+	  <div class="album tooltip">
+    <img src="https://i.discogs.com/oyDN3Ahon4nvU_nJUZGdKN5O2VghQbcdXgw_X0Ls8pw/rs:fit/g:sm/q:90/h:547/w:547/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTkw/MTMtMTUxMjY3NDA5/OS03MTEzLmpwZWc.jpeg" alt="Dominique Guiot">
+    <span class="tooltiptext"> L'Univers De La Mer - Dominique Guiot</span>
+  </div>
+		  <div class="album tooltip">
+    <img src="https://m.media-amazon.com/images/I/41RV61WA10L._QL70_FMwebp_.jpg" alt="Jestofunk">
+    <span class="tooltiptext"> Love in a gold dimention - Jestofunk </span>
+  </div>
+		  <div class="album tooltip">
+    <img src="https://f4.bcbits.com/img/a1102744964_16.jpg" alt="Clever Grirl">
+    <span class="tooltiptext"> No drum and bass in the jazz room - Clever girl </span>
+  </div>
+	  <div class="album tooltip">
+    <img src="https://e.snmc.io/i/600/w/f0f89bddfa6b4b4868be2af03860a63b/11098184/adam-bosarge-structures-without-rooms-Cover-Art.jpg" alt="Structures">
+    <span class="tooltiptext"> Structures witheout rooms - 	Adam Bosarge </span>
+  </div>
+	  <div class="album tooltip">
+    <img src="https://www.loudandquiet.com/files/2019/06/Mort-Garson-Mother-Earths-Plantasia-artwork-768x768.jpg" alt="Structures">
+    <span class="tooltiptext"> Plantasia - Mort Garson </span>
+  </div>
+		  <div class="album tooltip">
+    <img src="https://auctions.afimg.jp/u1090453256/ya/image/u1090453256.2.jpg" alt="Hiroshi Yoshimura">
+    <span class="tooltiptext"> A.I.R - Hiroshi Yoshimura </span>
+  </div>
+	  <div class="album tooltip">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/a4/37/75a4372d-9bc0-e8df-fcbc-8b5790ca14f2/5024545434620.png/592x592bb.webp" alt="kode9">
+    <span class="tooltiptext"> Memoirs of the future - Kode9 and the spaceape </span>
+  </div>
+		  <div class="album tooltip">
+    <img src="https://f4.bcbits.com/img/a0963104352_10.jpg">
+    <span class="tooltiptext">Communiun Amadeus by Mike Ma</span>
+  </div>
+	<div class="album tooltip">
+    <img src="https://i.discogs.com/IFvird1cKgN8YPshkfHw1hXMuCxP4jeG5BbBA4iFBtk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNjMy/MjQtMTQzMjg0MTg3/NS0xODA0LmpwZWc.jpeg" alt="Black Emperor">
+    <span class="tooltiptext"> Godsped you! - Black emperor </span>
+  </div>
+	 <div class="album tooltip">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.hHHFSZI5F4DoNm-UBKcEMwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Time of Land">
+    <span class="tooltiptext"> Have a nice life - Time of Land </span>
+  </div>
+	
+		  <div class="album tooltip">
+    <img src="https://tse1.explicit.bing.net/th/id/OIP.bJL0vTqm72yMrkOyC1vg2AAAAA?rs=1&pid=ImgDetMain&o=7&rm=3">
+    <span class="tooltiptext">Down colorful hill - Red House Painters</span>
+  </div>
+		
+	
+	
+	
+	
+	
+	<br>
+
+  <p> Div Black Metal </p>
+		  <div class="album tooltip">
+    <img src="https://f4.bcbits.com/img/a0095099829_16.jpg">
+    <span class="tooltiptext"> Pale swordsman - Këkht Aräkh</span>
+  </div>
+   <div class="album tooltip">
+    <img src="https://yt3.googleusercontent.com/FYwnGl97kyYDkp46RTrO08WyCrdeOBJPGPIXl-Qz9liTL3vGPmP1ponx5VYf1A-aIWW8tJbbiy0o0iTa=w544-h544-l90-rj">
+    <span class="tooltiptext"> Dehumanizing Loneliness - Decalius </span>
+  </div>
+     <div class="album tooltip">
+    <img src="https://yt3.googleusercontent.com/96LISREvFPPsArqxAmmxipMblrvO6wsDNqKKAjJAaJ4Ut3K4hAl9kPzKTz6fkk85cTw9nKp-fpc4NFXU=w544-h544-l90-rj">
+    <span class="tooltiptext"> Litourgiya - Batushka </span>
+  </div>
+
+
+	
+	<p> Listened to: </p>
+	  <div class="album tooltip">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7e8-P7vZbh6TSF6z_jzAKO2a5KO-P7rI-pQ&s" alt="Beethoven">
+    <span class="tooltiptext">No9 - Beethoven</span>
+  </div>
+		  <div class="album tooltip">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/8d/Let_God_Sort_Em_Out.jpg" alt="Clipse ">
+    <span class="tooltiptext">Let God Sort Em Out - Clipse </span>
+  </div>
+	
+	<p> MY FAVORITE BAND! </p>
+  <p> Like legit brah ive had multiple periods where I have listened to eachof these albums...</p>
+	 
+    <div class="album tooltip">
+    <img src="https://e.snmc.io/i/600/w/54ca3949601d48e75e79a40612c82203/1802128/protest-the-hero-search-for-the-truth-Cover-Art.jpg" alt="Protest the Hero">
+    <span class="tooltiptext">Search for the truth - Protest The Hero</span>
+  </div>
+
+      <div class="album tooltip">
+    <img src="https://e.snmc.io/i/600/w/f6e48215a58ce8578ed470c2128cdc95/12094716/protest-the-hero-a-calculated-use-of-sound-Cover-Art.png" alt="Protest the Hero">
+    <span class="tooltiptext"> A calculated use of sound - Protest The Hero</span>
+  </div>
+
+  <div class="album tooltip">
+   <img src="https://f4.bcbits.com/img/a0595207005_16.jpg" alt="Protest the Hero">
+   <span class="tooltiptext">Kezia - Protest The Hero</span>
+ </div>
+  
+  <div class="album tooltip">
+    <img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Volition_%28Album%29.jpg" alt="Protest the Hero">
+    <span class="tooltiptext">Volition - Protest The Hero</span>
+  </div>
+
+  <div class="album tooltip">
+    <img src="https://f4.bcbits.com/img/a2461540581_16.jpg" alt="Protest the Hero">
+    <span class="tooltiptext">Fabula & Syuzhet - Protest The Hero</span>
+  </div>
+	
+  <div class="album tooltip">
+   <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/Protest_the_Hero_-_Palimpsest.png" alt="Protest the Hero">
+   <span class="tooltiptext">Palimpsest - Protest The Hero</span>
+ </div>
+
+  <div class="album tooltip">
+   <img src="https://e.snmc.io/i/600/w/1aea7df4308d95684406a48626528c84/6286734/protest-the-hero-pacific-myth-Cover-Art.jpg" alt="Protest the Hero">
+   <span class="tooltiptext">Tidal - Protest The Hero</span>
+ </div>
+
+   <div class="album tooltip">
+   <img src="https://e.snmc.io/i/600/w/a7cdd620131ad3bb0c38dffdb76e1ac5/2160760/protest-the-hero-fortress-Cover-Art.jpg" alt="Protest the Hero">
+   <span class="tooltiptext">Fortress - Protest The Hero</span>
+ </div>
+	
+
+	
+</div>
+
+
+ 		
+																			 
+																			</div>
+     <div class="side"> 
+       
+			 <h3> Hmm I want my music taste to become more wide-ranging and eclectic: </h3>
+			 <ul>
+				 <li> Math rock </li>
+				 <li> Black metal </li>
+				 <li> Vaporwave </li>
+				 
+			 </ul>
+			  <hr>
+			 
+	
+			 <img src="https://lastfm-recently-played.vercel.app/api?user=elli3z" height="auto" width="100%">
+			 
+
+</div>
+  
+  
+  </div>
+ 
+
+<div class="low"> 
+	<h1> A thing I would like to do... </h1>
+	<p>: Id like to exsplore the deeper meanings and structures/sociological results of music. I am statring to think, based of the past years of music listening, my sense has gotten so vauge and unpolished that music for me has gotten stale and hurtful. This is a reason why I have started to read <a href="https://www.goodreads.com/book/show/427111.Introduction_to_the_Sociology_of_Music?from_search=true&from_srp=true&qid=N1JTtZzANl&rank=1"> Adornos Sociology of music </a>  because of his criticism and undertsanding of the Culture industry and his seemingly corect prediction of its development. I dont think i have the ability to grasp music in a way it derserves. I cannot fathom how inportant and wonderful music was for people in the past. Imagine the effort put on the disk, the vinyl or the cd. The effort to deliberetly go to a record store, choose what you wanted to try out, use the money you had saved up. The more the effort and focus the more the depth and enjoyment one gets.    </p>
+	
+	
+	
+	
+	</div>
+	
+	<div class="low">
+		<h1> Favorite albums of some People: </h1>
+		<h3> Nirelle </h3>
+		 <div class="album tooltip">
+    <img src="https://images.genius.com/8d446fd1838106369ccdc3678feb9924.1000x1000x1.jpg" alt="Lucid planet">
+    <span class="tooltiptext">Lucid planet - Lucid planet</span>
+  </div>
+		
+			 <div class="album tooltip">
+    <img src="https://lh3.googleusercontent.com/0I22cXusVTLhCIsS8k7Z_5cWZ-4JoDxl925Y6bdL9Waz8LQiwmh56TFKnMbXAHMIdga7Sqp6uJkS2RHw=w544-h544-l90-rj" alt="Alex Serra">
+    <span class="tooltiptext">In the real world - Alex Serra </span>
+  </div>
+		 <div class="album tooltip">
+							<img src="https://tse3.mm.bing.net/th/id/OIP.4CeM5zYJzWCuUJx0YmUyRAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Yes">
+							<span class="tooltiptext"> Tales from topographic Oceans - Yes</span>
+						</div>	
+		 <div class="album tooltip">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.1yfBcM7I6MY0K5wPGdoYcQHaHa?w=1200&h=1200&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Caligula's Horse ">
+    <span class="tooltiptext">Bloom - Caligula's Horse </span>
+  </div>
+	 <div class="album tooltip">
+    <img src="https://th.bing.com/th/id/OIP.299sR97QeAGvig9-IP14OgHaHV?w=215&h=212&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="Gojira ">
+    <span class="tooltiptext"> From Mars to Siriue- Gojira </span>
+  </div>
+				 <div class="album tooltip">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.9PsZpTdqCuc95xXQd-zsWQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Sybreed">
+    <span class="tooltiptext">Pulse of awakening - Sybreed</span>
+  </div>
+		
+		
+		<h3> Jakob </h3> 
+		 <div class="album tooltip">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.4c1BAQxjhb1TCgYSV4QLtwHaHh?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Panchiko ">
+    <span class="tooltiptext"> D>E>A>T>H>M>E>T>A>L - Panchiko  </span>
+  </div>
+									
+	
+		
+		
+		
+		
+		
+		
+		<h3> Alex (Alexander) </h3>
+	
+		 <div class="album tooltip">
+    <img src="https://th.bing.com/th/id/OIP.AnYaKvRJEwidhJv8gQGLbwHaHb?w=162&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="Mercenary">
+    <span class="tooltiptext">Bolt Thrower - Mercenary </span>
+  </div>
+		<div class="album tooltip">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.qA1gFQ9Dm_WMx3PmpBbyggAAAA?pid=ImgDet&w=206&h=206&c=7&dpr=1,1&o=7&rm=3" alt="Iron Maiden">
+    <span class="tooltiptext"> Number of the Beast- Iron Maiden </span>
+  </div>
+			 <div class="album tooltip">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.g75lvmMY_l-m9x58GGCHzAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Candlemass">
+    <span class="tooltiptext">Nightfall - Candlemass </span>
+  </div>
+		
+	</div>
+
+ <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script> 
+  
+</body>
+																																				 </html><!DOCTYPE html> 
+

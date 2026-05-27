@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The web site of Blop</title>
+  <!-- The style.css file allows you to change the look of your web pages.
+       If you include the next line in all your web pages, they will all share the same look.
+       This makes it easier to make new pages for your site. -->
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  
+  
+  </head>
+  <style>
+    body {
+   background-image: url("https://i.pinimg.com/474x/1b/2d/4b/1b2d4baee71b9e66bd9535099d1fa010.jpg");  object-fit: cover;   background-size: cover; }
+
+		.container {
+  display: grid; 
+  grid-template-columns: 0.4fr 2.0fr 0.5fr; 
+  grid-template-rows: 0.2fr 0.1fr 0.2fr; 
+      grid-tenplate-rows:auto;
+            height: 100vh; /* Make the grid take full viewport height */
+
+  gap: 0px 0px; 
+  grid-template-areas:
+    ". . ."
+    "links . side"
+    "links big side"
+    "links big side"
+    "links big side"
+        "links big side"
+        "links big side"
+             "links big side"
+              "links big side"
+                  "links big side"
+          ". big ."
+     ". . ."
+    ". . ."
+    ". . ."
+     ". . ."
+    ". . ."
+    ". . ."
+    ". . ."
+    ; 
+}
+    .links { grid-area: links; 
+                   border-style: solid;
+
+      height:100%;
+       justify-content: space-between; /* Push WhatsNew to the bottom */
+        background-color:#F9CD9A; /* lighter */
+      
+    overflow-y: scroll;
+      overflow-x: hidden;
+      -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  column-fill: auto; 
+      
+     
+      
+  
+    }
+        .content {
+      display: none; /* Hidden by default */
+    }
+.big { grid-area: big; display: grid;
+      border: 2px solid black ;
+height: 140%; /* =Wierd, change */
+    width: 100%;
+    background-color:#FFB96B;  overflow-y: scroll;
+      overflow-x: hidden;
+      -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  column-fill: auto; 
+  
+    
+    font-size: 14px;
+  overflow: scroll;
+    }
+}
+.big::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari and Opera */
+}
+
+.side { grid-area: side;  border: 2px solid black;
+  width: 100%;
+
+    background-color:#F9CD9A;
+      height:100%;
+      
+  overflow-y: scroll;
+	overflow: auto;
+    
+      -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  column-fill: auto; 
+      
+  
+word-wrap: break-word; /* Forces long words to wrap */
+  hyphens: auto;
+  
+  
+  
+  
+  } 
+.collapsible {
+  background-color:#FFB96B;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 22px;
+          
+}
+.low { grid-area: low;  border: 1px solid black;
+  width: 100%;
+       background-color:#f5e1dd;
+   overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+		
+	    font-size: 12px;
+
+		}
+
+		
+    
+         .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: right;
+					 width: 50px; /* Fixed width for all images */
+					 height: 50px; /* Fixed height for all images */ }
+           
+             .image-text {
+      overflow: hidden;
+    }
+           
+					 .labbenow {
+						 background-color: #FFDEBC;
+  padding: 5px;
+  text-align: center;
+				 margin: 0 auto; /* Centers the div horizontally */
+    position: relative; /* Ensures it's aligned properly within the flow */
+						 
+						 
+						 width: 60%;
+  
+						 
+					 }
+           
+  </style>
+<body>
+ <div class="container">
+  <div class="links"> 
+    <strong> LINKS </strong> 
+            <button type="button" class="collapsible">Me</button>
+            <div class="content" style="display:none;">
+                <a href="/aboutme.html">About me</a><br>
+                <a href="/library.html">Library </a> <br>
+                <a href="/guitar.html">Guitar</a> <br>
+                <a href="/music.html">Music</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Knowledges</button>
+            <div class="content" style="display:none;"> 
+                <a href="/articles.html">Articles</a> <br>
+            </div>
+
+            <button type="button" class="collapsible">Æstetikk</button>
+            <div class="content" style="display:none;">
+                <a href="/labbe.html">Rabbit shrine</a> <br>
+                <a href="/links.html">Links</a>
+            </div>
+
+<hr>		 
+		 
+		 
+		 
+At the end of his life labbe looked just like an old, sunken grandpa. And at the beginning of his life, he looked young and full of energy and curiosity <h3> 2015 pic: <h3>
+ <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/IMG_1525.png.210x158.webp" style="width: 75%; height: auto; ">
+
+			 <h3> 2024 recent: </h3>
+	<img src="https://blopswebsite.neocities.org/Pictures/labbe/newest1.png"style="width: 75%; height: auto;">
+				 
+  </div>
+                          
+  <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/1Lay.png.210x158.webp" alt="cardboard" style="width: 20%; height: auto; position: absolute;  top: 10%; right: 60%; z-index: 1; ">
+			 
+			  <img src="https://blopswebsite.neocities.org/Pictures/labbe/Perkup.png" alt="cardboard" style="width: 20%; height: auto; position: absolute;  top: 60%; right:-5%; z-index: 1;  transform:  ">
+								  <img src="https://blopswebsite.neocities.org/Pictures/labbe/Perkup.png" alt="cardboard" style="width: 20%; height: auto; position: absolute;  top: 60%; left: -5%; z-index: 1;  transform: scaleX(-1); ">																																																			 
+																																																											 
+     <div class="big"> 
+
+
+			 
+			 
+			 <img src="https://blopswebsite.neocities.org/Pictures/labbe/Labbe1 2.png" alt="cardboard" style="width: 15%; height: auto; position: absolute; top: -10%; right: 5%; z-index: 2; ">
+<img src="https://blopswebsite.neocities.org/Pictures/labbe/Labbe1 2.png" alt="cardboard" style="width: 15%; height: auto; position: absolute; top: -10%; left: 5%; z-index: 2;    transform: scaleX(-1); ">
+			 
+			 
+<p style="text-align: center;">
+
+	       <a href="https://www.glitter-graphics.com"><img src="http://dl4.glitter-graphics.net/pub/1009/1009254cq7evun01h.gif" width=11 height=11 border=0></a>
+	    		<img src="https://cloudcover.neocities.org/toybox/animals/bun5.gif"><a href="https://cloudcover.neocities.org/"></a>
+	<a href="https://www.glitter-graphics.com"><img src="http://dl6.glitter-graphics.net/pub/501/501656n9akhrt86q.gif" width=15 height=27 border=0></a>
+<strong><span style="font-family:Papyrus; font-size: 34px; text-shadow: rgb(234, 147, 46) 4px -1px 5px;">LABBE </span></strong>
+	  <a href="https://www.glitter-graphics.com"><img src="http://dl6.glitter-graphics.net/pub/501/501656n9akhrt86q.gif" width=15 height=27 border=0></a>
+	         
+																																																											
+	         
+      		<img src="https://cloudcover.neocities.org/toybox/animals/bun5.gif"><a href="https://cloudcover.neocities.org/"></a>
+			   <a href="https://www.glitter-graphics.com"><img src="http://dl4.glitter-graphics.net/pub/1009/1009254cq7evun01h.gif" width=11 height=11 border=0></a>
+       
+
+			 </p>
+
+			 			 
+
+			 
+			 
+<hr>  Here is a shrine dedicated to my dear rabbit labbe. This will remain untouched<br>
+			 Labbe died in the afternoon in my mothers embrace fourth september 2025. I got him in 2015 (about 10 years old) when the family dog died (rip Tass). Of all other animal pets i have lived with i felt the most connected to Labbe- It felt like labbe were mine yuknow? 
+			 </p>
+			 
+			 
+			 <hr>
+				 
+	Labbe was a very stubborn, relaxed and protective rabbit. For example, my dad got the sweet idea of putting his Border Collie loose around when Labbe was loose as well. Labbe did not move and the Collie just stared and followed labbe. Then stomped and the Collie moved away lol. Labbe tells when he wants something- he used to follow to the kitchen and nib at our feet to show us that he wanted something. He used to follow me everywhere and he used to grunt a lot. We sometimes had small ballons around that he occupied himself with. 
+				 <hr>
+			 <p>
+			 <strong> Labbe had done a lot! </strong> Once I took him with me to a pizza restaurant with my playmates. Hes been chased by dogs (very scary). Chased away big birds. Walked loose in nature. Been to a farm. Joined a picknick. Joined me to dig snow holes. Moved here and there with me. Completed hours of ball and baloon humping. Played tag with me in the garden, and he ate my grandmas papers.  </p>
+			  <image-class="image-container">
+				 <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/IMG_1983.png.210x158.webp">
+				 <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/IMG_1525.png.210x158.webp">
+				 <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/IMG_2415.png.210x158.webp">
+				  <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/IMG_1030.png.210x158.webp">
+				  <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/IMG_3196.jpg.210x158.webp" style="width: 15%;">
+					
+
+			
+				 <br>
+					
+					
+		<p style="text-align: center;">When I was a kid I struggeled to sleep alone. I would lay wide awake, too afraid to close my eyes, for hours and I would beg to not sleep alone. I hated to sleep alone and I would always scare myself with scary thoughts. Then dad got the great idea to move the rabbit cage with Labbe inside in front of my bed so i could look at labbe and fall asleep that way. It was very satisfying and calming to watch an animal minding its own buisness. It worked and now I have learnt to sit with my fears untill I get tiered of it and move on.<br> When i used to sit on my bed and play games Labbe would often and annoyingly jump up, nibble on my blanket and ask for me to pet him. Countless times i have played Owerwatch/minecraft/genshin with Labbe snuggeled around my elbow. Yes, he did piss countless of times in my bed LOL- annoying and stinky. The solution wasto put thick paper and his own piss-blanket so he could still stay beside me on my bed/sofa.<br>When i walked around in the house he used to waddle after me (even to the toilet lol). Even when i ran around in the garden(or inside) he would run after me and when i went to sleep or sat in my bed playing games he would jump up on my bed. Some times the jumping after me could become so much i had to put boards up on my bed so that i could sleep peacefully and not accedentally kick him down.</p>
+ <p>
+	 
+	 My step mother once had to take care of Labbe alone so one day she went upstairs to find him dead! HA! kidding, he was just all relaxy-sleepy position. I think rabbits tend to do that when they feel very safe/secure. Its like their most UlTimAtE chill position ever. Here is some fun pics of him looking dead when he is not actually dead:
+	 <br>
+	  <image-class="image-container">
+	 <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/Ded2.png.210x158.webp" style="width: 30%; height: auto;">
+				 <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/Ded_.png.210x158.webp" style="width: 30%; height: auto;">
+	 <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/Dedballz.png.210x158.webp" style="width: 20%; height: auto;">
+																																																										
+			
+																																																																			</div>
+	
+	
+  <div class="side">      
+	
+	  <pre>
+
+	 Likes 
+Blueberries, carrors, baloons,
+icycle, headpats, carrots, 
+sitting on my lap, Warmth, 
+cuddles,being outside
+
+   Dislikes
+sudden noises, being ignored
+forced on back, picked up,
+claw-cutting, numb legs
+
+    Has bitten:
+phone chargers, lamp and 
+warmer charger, my sweaters,
+blankets, furnitures,
+sofas, AMP cable, WIIU. 
+
+</pre>
+	
+  
+  
+  </div>
+   
+  </div>
+ 
+			
+				 <img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/Kawaii.png.210x158.webp" alt="cardboard" style="width: 15%; height: auto; position: absolute; left:  5%;
+						">
+						 										 
+					
+<img src="https://neocities.org/site_thumbnails/34/54/blopswebsite/Pictures/labbe/Kawaii.png.210x158.webp" style=" width: 15%; height: auto; position: absolute; left:
+						80%; z-index: 1;  transform: scaleX(-1);">	
+
+
+<div class="labbenow">
+<span style="font-size: 11px;">
+	
+	At 04.09.2025 labbe died in my mothers lap. He had grown weak and tiered. I moved away around three weeks ago so i didnt get to truly say goodbye- i feel. I wonder what he thought of or felt when i didnt come home and when his legs got so bad that he couldnt move anymore. When i was at home i took my time to really cuddle and be with labbe because i understood that it most likley would be the last time i would ever see him with me. His legs were still bad then, but he showed a great inprovement the more i cuddeled with him and the more he was out in nature. That rekindeled my hopes for that i might see him again when i had holyday- but no. A heavy and inhevitable burden for any pet owner has come to sit upon my shoulders. 
+
+		<h1> Memory of you I will always keep <br>
+		God saw you were tiered, and put you to sleep. </h1>
+	
+	<hr>
+																<strong> How is labbe now? (discontinued) </strong>
+	<br> Since i moved i cannot hagout as much with labbe as i did before, and my mother is busy. He lays around a lot now and moves very little. He seems to be drinking more than before and has gotten a lot thinner...He is picky about his food and i dont know if it is because of his age that he has gotten so thin or because of something else. My mom says he eats normally and it is just his age. But i dont know... <br> My mom tells me his time is very soon up- ill document some of my encounters with him from now on.
+	<br>
+		<strong> 17.04.2025 </strong> <br>
+	<p> So, after a good while of being with labbe his eyes were better and he jumped a bit off. Now it dosent look like he uses his legs much at all and i dont know if he could be in pain or not, perhaps a little, but not much for him to make any noises or grit his teeth. Sometimes it looks like he is lying down with his back legs to the side, but then i notice him trying to walk while the legs are at the same place. Looks like hes gone a bit numb. But then afterwards he jumps better and seems to have some autonomy over his back legs. My mom wants him dead before i move out again. In August ill move ut far away and ill only get to visit in the holydays. Sadly, this is a dilemma i was deemed to come over. I dont want someone to put a syringe in him for a gazillion money (really, the vet is exspensive) and i want him to die naturally, but i dont want him to live in a lot of pain witheout anyone that cares for him there (my mother never really pets him or anything). It dosent seem like he is in much pain and i have thought about taking him to the vet to have him checked, but it cost a lot and my mom say its wasted and that he  " should just die instead" (overexaggerated mby, but she basically said this)  <br>
+	   Overall though, he still sometimes grunts and grinds his teeth when i pet him (sign that he likes it, not when i dont pet him) and he still asks for cuddles. When i have him on my lap he could nag and ask me to pet him so when i get tiered of petting him i put a blanket over him and he stops. He seems to like it when there is some kind of weight/warmth over him.
+	
+	
+	</p>
+<img src="https://blopswebsite.neocities.org/Pictures/labbe/IMG_7194.png" style="width: 35%;
+						">
+	<br>
+	<strong> 17.04.2025 </strong> <br>
+	Yep, sometimes i wonder when he is gonna - eh, "unalive". The word isnt that pretty but i dont wanna write the d-word. He is still doing good and ive taken some more pictures of him that i want to add here soon. Some days ago we tried to take him with us in our car to a trip but smth happened and we had to smash-break the car multiple times. I went back in the truck to see too him and it turned out he was shaking all over. I took him in my lap for the rest of the trip and he calmed down. It seems to me that he has started to prefer it that i put a blanket over him and then hell be calm and close his eyes. I like it that he seems to fall asleep so easily on my lap. If im not careful where my legs are they could end up hurting real bad afterwards because i dont wanna move when Labbes asleep. 
+	
+	<br>
+	<strong> 30.03.2025 </strong> <br>
+It seems like his balance is a bit better, but now he is red-ish on his back and idk what it could indicate. I was home for just like one day and i have been cuddeling with him a bunch. Its really nice when he gets all calm and quiet in my lap. I dont want to move a single muscle when that happens. 	
+	<br>
+	<strong> 18.03.2025 </strong> <br>
+	Labbe is starting to be slow. When he is jumping around or moving i can see his leg hangig left again and my mother says hes drinking a lot which shows that his kidneys are failing. He is not makibng any noises or movements that indicates he is in pain. <br>
+	
+	<strong> 02.02.2024 </strong> <br>
+	Originally, I wasnt planning on going home this weekend, but it turned once my mom called and he was sick. She had found him having some seizure or something (actually it was Kenny, her dog, that found him), but labbe got quickly better and nothing more happened after. So i decided to go home this weekend anyways to stick around with him in case he were to die, because i would have not liked it if he would die witheout seeing me or being with me much. As i write this he is in my lap and licking my arm. I think he might have some wax in his ears. His cage and such is right nexst to my bed so when i get up in the morning he sees it and he always runs torwards me and grunts(happy grunting). I love when he does that, he is really affectionate like that. Its like his way of saying "Hi. i love you! Pay attention to me!". Nexst week will also be the last chance i can go home and meet him and then im probably going to be busy the nexst three-four-five weeks. Ill have Winter holyday then though, perhaps ill se to take him with me to my dad or something.
+	
+	<br>
+		<strong> 25.01.2024 </strong> <br>
+My mom is saying he eats a lot and still is skinny. I went on a quick visit to him and he was eating. His infection seems to be going on on his eyes and hes lost fur. 
+	<br>
+	<strong> 24.12.2024 </strong> <br>
+	Finally christmas and Labbe is still alive. He dosent jump out of his cage at all and he sits a lot. Whenever i take him with me to the couch he falls when he walks. Turns out that it is another sign of old age and that hes gonna die soon, but not this night. Tonight ill have him beside me. 
+	<br>
+	<strong> 21.12.2024 </strong> <br>
+	Finally christmas break! Me and my mother is going to Sweeden and I will deffinetly take Labbe with me- took somewhile debating with my mother about because of transport, but I think its better for him to not be alone for sereval days with a chance of eating/drinking everything empty to no one to visit and refill. Nah, for his perhaps-last christmas hell be with me. 
+  <br>
+	<strong> 15.12.2024 </strong> <br>
+	His skin is super dry on his side. Theres chuncks of dry scalp and fur coming off. It used to help putting some oil on it so ill do that when i leave. When i come too close to touching his ears he shrugs his head indicating there is some annoyance there (used to have it before as well). He is moving a bunch when hes in my lap when im petting him. I think he wants to move a bit more but he just seems to lay around all day and it surley wont help when my mother made his cage so so small. 
+	
+	
+	<br>
+	<strong> 30.11.2024 </strong><br>
+	Labbe is looking kinda better, his eye has healed pretty much completly. But my mother says he is drinking a lot which means his kidney are failing.
+	
+	<br>
+	<strong> 17.11.2024 </strong><br>
+	Came to visit him today. A very short trip. My mom dont want to care for him anymore and i can tell she just wants him to die so she wouldnt have more work. His infection (a common one among aging rabbits, she told me) has subsided, but i dont know if it is hurting him. He moves away when my hand come too close and i can tell it is a bit unconfortable, but that shouldnt be enough to give him the vets syringe? His fur is short, ruffy,old-looking and dry. He moves little and jumps wierdly. I stopped petting him and he laid beside me for a while til i had to leave. My parents says hes on overtime. Internett says Dwarf Rabbits can get 10 years old, labbe is 9, but i skimmed trough somewhere that said they could be 12- or was it just for other kinds of rabbits? I dont know. I want to have days where i can be with him. Weekends are starting to seem full as i am also looking for a part-time job and studies are getting a bit tougher. Its holydays soon though, and soon on the holydays i can move back home and be with him again. <br>
+	 <img src="https://blopswebsite.neocities.org/Pictures/labbe/17.nov.png" style="width: 30%; height: auto;">
+
+	
+	<br> <br>
+	<strong>Idk october </strong>
+									His skin has gotten very dry, with a changing pelt and he has some wierd infectuous thing on his eye. We put cream on it that has worked before so i hope it will get better. <br> Labbe still jumps torwards me when he notices me and asks for pettings. I dont know if he would still follow me since my mother got tiered of him being all over the house so she put him in a room. </hr>
+															<br> My mom tells me to prepare for his death anytime now. I dont feel ready for that, it feels like he is going to live with me forever. I always ask how labbe is doing, sometimes i even notice that i miss him. No, im not ready for that, hes gonna live a little longer. Im going to get home soon again, ill be with him then.
+	
+	
+	
+															</p>	
+					
+</div>
+
+
+
+<div class="low">
+	<p style="text-align: center;">
+		 
+
+		 
+			 I think labbe has lead a somewhat lonely life, i cannot remember him meeting any other rabbit. We brought him alone. Im no exspert but it feels like hes been lonely a lot yuknow? Quiet and long days when i am gone and when my mother is working. Just him and the whole house with my moms dog, but they dont hangout much. It hurts to imagine his loneliness, but when i think about it i imagine his loneliness as mine; or worse- but human, how would loneliness be to a rabbit, i dont know.
+															<br>
+																<span style="font-size: 10px;">(suppouse ill put it here since i hope anyone close wont see this)</span><span style="font-size: 9px;"> I used to feel reeeeeeaaaalllyy alone and sad before, labbe was there and he licked away my tears and then i felt a little better and feeling how silly i was for thinking how alone i was when i had my rabbit</span>
+																</p>
+</div>
+
+ <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script> 
+  
+</body>
+</html>
